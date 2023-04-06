@@ -1,0 +1,78 @@
+.flexbox-container-contact {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: stretch;
+  color: grey;
+  text-align: left;
+} 
+.flexbox-item-contact2 {
+  width: 720px;
+  height: 660px;
+  flex-grow: 1;
+}
+.flexbox-item-contact1 {
+  height: 88vh;
+  flex-grow: 1;
+  width: 10px;
+  padding-left: 20px;
+  /* text-align: center; */
+}
+.property{
+  padding: 12px 10px 10px 0px;
+  height: 120px;
+  color: goldenrod;
+  border-top: 2px solid grey;
+
+}
+.devs{
+  margin-top: 10px;
+  font-weight: bold;
+  font-size: 15px;
+  padding-bottom: 5px;
+}
+.strand{
+  text-align: left;
+  color: grey;
+  font-size: 14px;
+  margin-top: 15px;
+}
+.address{
+  /* background-color: pink; */
+  padding: 10px 10px 10px 5px;
+}
+.the-address { 
+  color: gray; 
+  height: 149px; 
+  background: rgb(62, 61, 61);
+  padding-top: 25px;
+  text-align: center;
+} 
+.find{
+  color: goldenrod;
+  margin-top: 20px;
+  font-size: 23px;
+}
+.small-paragraph{
+  padding-top: 10px;
+  /* padding-left: 35px; */
+  padding-right: 19px;
+  color: grey;
+  font-size: 13px;
+  /* margin-top: 34px; */
+  /* background-color: pink; */
+}
+.terms{
+  /* background-color: pink; */
+  padding-top: 50px;
+  /* margin-top: -300px; */
+  color: grey;
+  font-weight: bold;
+}
+.spec{
+  height: 120px;
+}
+#post{
+/* background-color: peru; */
+padding-left: 20px;
+}

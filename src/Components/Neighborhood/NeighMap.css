@@ -1,0 +1,148 @@
+.grid-container-elementr {
+  display: grid;
+  grid-template-columns: 1.5fr 7fr;
+  width: 100%;
+  height: 100vh;
+  margin-left: 20px; 
+  margin-right: 20px;
+}
+.grid-child-element {
+  object-fit: fill;
+}
+.grid-child-element.puurple {
+  text-align: left;
+}
+@font-face {
+  font-family: "luxury";
+  src: url(/din/fonts/FF\ DIN\ Pro\ Regular.otf);
+}
+.map-1 {
+  text-align: left;
+  height: 300px;
+  border-bottom: 3px solid goldenrod;
+}
+.gain { 
+  font-family: "luxury";
+}
+.gainn {
+  font-family: "luxury";
+  color: grey;
+  font-size:28px;
+  padding: 15px 15px 7px 7px;
+}
+h2.gain {
+  color: grey;
+  padding: 38px 15px 7px 7px;
+  font-size: 180%;
+}
+h5.gain {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-weight: bolder;
+  color: rgb(122, 120, 120);
+}
+.prox {
+  text-align: left;
+  height: 190px;
+  font-size: 110%;
+  padding: 5px;
+}
+.prox ul {
+  list-style: none;
+}
+.connect {
+  text-align: left;
+  height: 180px;
+  font-size: 120%;
+  padding: 5px;
+}
+
+.button-46 {
+  align-items: center;
+  background-color: rgba(240, 240, 240, 0.26);
+  border: 1px solid #dfdfdf;
+  box-sizing: border-box;
+  color: #000000;
+  cursor: pointer;
+  font-size: 28px;
+  justify-content: center;
+  line-height: 28px;
+  max-width: 100%;
+  padding: 14px 22px;
+  text-decoration: none;
+  transition: all 0.2s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 40%;
+}
+
+.button-46:active,
+.button-46:hover {
+  outline: 0;
+}
+
+.button-46:hover {
+  background-color: #ffffff;
+  border-color: rgba(0, 0, 0, 0.19);
+}
+
+@media (min-width: 768px) {
+  .button-46 {
+    font-size: 20px;
+    min-width: 200px;
+    padding: 14px 16px;
+  }
+}
+.grid-child-element.greenn{
+  overflow: hidden;
+}
+.map {
+  height: 89vh;
+  width: auto;
+  margin-right: 30px;
+  object-fit: cover;
+}
+.place {
+  font-family: "luxury";
+  color: grey;
+}
+.jkia {
+  font-family: "luxury";
+  color: grey;
+  font-size: 17px;
+} 
+.go-to-menu{
+  font-family: 'luxury';
+  font-size: 50%;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  color: grey;
+}
+.explore-section.men{
+  /* background-color: pink; */
+  text-align: center;
+  margin-top: -7%;
+  font-size: 120%;
+  cursor: pointer;
+
+}
+@media all and (max-width: 700px) {
+  .grid-container-elementr {
+    display: block;
+  }
+  .map {
+    height: 89vh;
+    width: 100%;
+    object-fit: cover;
+  }
+  .go-to-menu{
+    font-family: 'luxury';
+    font-size: 50%;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    color: grey;
+  }
+}

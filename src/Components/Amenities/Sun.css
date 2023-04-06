@@ -1,0 +1,170 @@
+.grid-container-sun {
+  display: grid;
+  grid-template-columns: 2fr 6fr;
+  grid-gap: 0px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+@font-face {
+  font-family: "luxury";
+  src: url(/din/fonts/FF\ DIN\ Pro\ Regular.otf);
+}
+.kubwa-sun {
+  margin: 0 0 0 0;
+}
+.the-sun {  
+  color: gray;
+  height: 260px;
+  background: rgb(62, 61, 61);
+  padding: 5px 5px  5px 5px;
+  text-align: center;
+  margin-right: 20px auto;
+}
+h1.brown-section {
+  font-size: 28px;
+  font-family: "luxury";
+}
+h6.the-section {
+  font-size: 17px;
+  margin-top: -10px;
+  font-family: "luxury";
+}
+.center1 {
+  /* background: pink; */
+  margin-top: 14px;
+  padding: 9px;
+  height: 101px;
+  color: goldenrod;
+  border-bottom: 2px solid grey;
+}
+.residence-home-logo-grey.spec {
+  height: 160px;
+  margin-top: 10px;
+  /* background-color: peru; */
+}
+.sunner {
+  margin-top: 40px;
+  font-family: "luxury";
+  font-size: 28px;
+}
+.disclaimer {
+  /* background-color: purple; */
+  height: 180px;
+  padding: 10px 0 10px 5px;
+  font-size: 120%;
+  margin-top: 30px;
+}
+.disclaimerr {
+  /* background-color: purple; */
+  height: 180px;
+  padding: 5px 0 10px 5px;
+  font-size: 120%;
+  margin-top: 30px;
+}
+.eastward {
+  font-family: "luxury";
+  font-size: 25px;
+  margin-top: 5px;
+  color: gray;
+  font-weight: bold;
+}
+.east-gard {
+  font-family: "luxury";
+  margin-top: 15px;
+  color: grey;
+  /* background-color: pink; */
+  height: 50px;
+  margin-bottom: 20px;
+}
+.example {
+  font-family: "luxury";
+  font-size: 15px;
+  color: #7b7471;
+  padding-top: 5px;
+  padding-bottom: 10px;
+}
+.example.twos {
+  text-align: right;
+}
+.ddsun {
+  height: 90vh;
+  width: 100%;
+  object-fit: cover;
+}
+@media all and (max-width: 500px) {
+  .grid-container-sun {
+    display: block;
+  }
+
+  .disclaimer.y {
+    /* background-color: pink; */
+    height: 210px;
+    padding: 6px;
+    margin-top: 0;
+    padding-bottom: 15px;
+  }
+  .center1 {
+    /* background-color: brown; */
+    margin-top: -3%;
+    font-size: 90%;
+    height: 120px;
+    color: goldenrod;
+    border-bottom: 2px solid grey;
+  }
+  .the-sun {
+    color: gray;
+    height: 270px;
+    background: rgb(62, 61, 61);
+    padding: 5px;
+    text-align: center;
+    width: 450px;
+  }
+  .residence-home-logo-grey.spec {
+    height: 150px;
+    margin-top: 5%;
+    margin-bottom: -5%;
+  }
+  h1.brown-section {
+    font-size: 180%;
+    font-family: "luxury";
+    margin-left: -9%;
+  }
+  h6.brown-section {
+    font-size: 18px;
+    margin-top: 30px;
+    margin-right: 110px;
+    font-family: "luxury";
+  }
+  .sunner {
+    margin-top: 40px;
+    font-family: "luxury";
+    font-size: 200%;
+  }
+  .eastward {
+    font-size: 120%;
+  }
+  .east-gard {
+    font-size: 90%;
+  }
+}
+
+.flexbox-container-sun {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: stretch;
+
+  height: 87vh;
+  padding: 0px 20px 10px 20px;
+}
+
+.flexbox-item-sun1 {
+  position: relative;
+  width:120px;
+  flex-grow: 1;
+}
+.flexbox-item-sun2 {
+  width: 890px;
+  height: 84vh;
+  flex-grow: 1;
+}

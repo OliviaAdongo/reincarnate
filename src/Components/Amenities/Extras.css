@@ -1,0 +1,50 @@
+.amenity1 {
+  background-image: url("http://testdeploy.thesaruni.com/gym.jpg");
+  height: 88vh;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+.amenity3 {
+  background-image: url("http://testdeploy.thesaruni.com/infinitypool.jpg");
+  height: 88vh;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;  
+  color: white;
+} 
+
+.amenity2 {
+  /* color: white; */
+  background-image: url("http://testdeploy.thesaruni.com/coutryard.jpg");
+  height: 88vh;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+@font-face {
+  font-family: "luxury";
+  src: url(/din/fonts/FF\ DIN\ Pro\ Regular.otf);
+}
+.gym {
+  font-family: "luxury";
+  color: white;
+  padding: 29px 27px 7px 7px;
+  font-size: 20px;
+  margin-left: 30px;
+}
+.courtyard {
+  font-family: "luxury";
+  color: white;
+  padding: 38px 27px 7px 7px;
+  font-size: 20px;
+  margin-left: 30px;
+}
+.pool{
+  font-family: "luxury";
+  color: white;
+  padding: 29px 27px 7px 7px;
+  font-size: 20px;
+  margin-left: 30px;
+}

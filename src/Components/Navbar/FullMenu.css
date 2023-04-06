@@ -1,0 +1,59 @@
+
+
+/* .container {
+  position: relative;
+  max-width: 100%; 
+  margin: 0 auto; 
+  height: 100vh;
+}
+
+ .content {
+  position: absolute;
+  bottom: 0; 
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.8); 
+  Black background with 0.5 opacity
+  color: white; 
+  width: 100%; 
+  height: 100%;
+  padding: 21px;
+  text-align: center;
+  
+} */
+
+
+.menu-opt{
+  color: white;
+  margin-top: 45px;
+  font-size: 45px;
+}
+a{
+  text-decoration: none;
+}
+.description{
+  text-decoration: none;
+  color: white;
+  margin-top: 2px;
+  font-size: 13px;
+}
+.back-image{
+  width: 100%;
+  height: 100vh;
+}
+
+
+.full-menu{
+  /* color: white; */
+  background-image: url("http://testdeploy.thesaruni.com/coutryard.jpg");
+  height: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+.option1{
+  background: rgba(0, 0, 0, 0.6); /* Black background with 0.5 opacity */
+  height: 100vh;
+  padding-top: 20px;
+
+}

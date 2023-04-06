@@ -1,0 +1,198 @@
+.grid-resident-element {
+  /* background-color: green; */
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: 3fr 10fr;
+  margin: 0 0 0 0;
+}
+
+
+
+.contentarea {
+  margin-top: 20px;
+  margin-left: 10px;
+  border-bottom: 5px solid goldenrod;
+  color: goldenrod;
+  text-align: left;
+}
+.luxury {
+  
+  margin-left: 20px;
+  margin-bottom: 30px;
+  /* background-color: pink; */
+}
+.childimage {
+  width: 100%;
+  height: 850px;
+} 
+.grid-child-purple {
+  /* background-color: aquamarine; */
+  border: none;
+  margin-left: 20px;
+}
+h6.gold-section {
+  font-size: 18px;
+  margin-top: -19%;
+  margin-right: 310px;
+}
+h1.gold-section {
+  font-size: 280%;
+}
+
+.grid-child-element.green {
+  border: none;
+  margin-right: 30px;
+}
+.the-residences {
+  color: gray;
+  height: 370px;
+  background: #efbf3b;
+  padding: 5px;
+  text-align: center;
+}
+.conten-twise {
+  margin-top: 20px;
+  padding: 5px;
+  /* background-color: brown; */
+}
+.care {
+  color: grey;
+
+  font-size: 30px;
+}
+
+.content-3 {
+  margin-top: 10px;
+  padding: 6px;
+  /* border: 5px solid yellow; */
+  width: 300px;
+  height: 400px;
+  text-align: left;
+  position: absolute;
+  bottom: -14px;
+  left: 28px;
+  /* background: brown; */
+}
+/* EXPLORE */
+.arrow {
+  position: absolute;
+  top: 123%;
+  left: 50%;
+  /* background-color: gray; */
+  transform: translate(-50%, -50%);
+}
+.arrow span {
+  display: block;
+  width: 30px;
+  height: 30px;
+  border-bottom: 4px solid #000000;
+  border-right: 4px solid #000000;
+  transform: rotate(45deg);
+  margin: -10px;
+  animation: scroll 2s infinite;
+}
+.arrow span:nth-child(2) {
+  animation-delay: -0.4s;
+}
+@keyframes scroll {
+  0% {
+    opacity: 1;
+    transform: rotate(45deg) translate(-20px, -20px);
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: rotate(45deg) translate(-20px, -20px);
+  }
+}
+.explore {
+  
+  font-weight: normal;
+  color: #7c7471;
+  margin-top: 0;
+  font-weight: bold;
+  text-align: center;
+  cursor: pointer;
+
+}
+.paragraph-bottom {
+  /* background-color: pink; */
+  padding-top: 14px;
+  height: 110px;
+  font-size: 17px;
+  margin-top: 15px;
+  color: grey;
+
+}
+.residence-home-logo-grey {
+  margin-top: -8%;
+  height: 398px;
+  margin-bottom: 0px;
+}
+.downangle {
+  transform: scale(1.9, 1.6);
+  /* font-weight: normal; */
+}
+@media all and (max-width: 700px) {
+  .grid-resident-element {
+    display: block;
+  }
+  .grid-container-element.homepager{
+    display: block;
+
+  }
+
+  .residence-home-logo-grey {
+    height: 210px;
+    margin-top: 5%;
+    margin-bottom: -5%;
+  }
+  .the-residences.room {
+    color: gray;
+    background: #efbf3b;
+    padding: 5px;
+    text-align: center;
+    color: gray;
+    height: 270px;
+    padding: 5px;
+    width: 450px;
+  }
+
+  h6.gold-section {
+     font-size: 120%;
+    margin-top: -20px;
+    margin-right: 160px;
+   
+  }
+  h1.gold-section {
+    font-size: 190%;
+   
+    margin-left: -9%;
+  }
+ 
+  .care {
+    color: grey;
+ 
+    font-size: 28px;
+    text-align: center;
+  }
+  .paragraph-bottom {
+    /* background-color: pink; */
+    padding-top: 28px;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 110px;
+    font-size: 19px;
+    margin-top: -1%;
+    color: grey;
+    
+  }
+  .childimage {
+    object-fit: cover;
+  }
+  .kubwa-resident {
+    margin: 0 0 0 0;
+  }
+}

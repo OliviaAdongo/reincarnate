@@ -1,0 +1,74 @@
+// <div className="kubwaest">
+    //   <div>
+    //     <ChildNav />{" "}
+    //   </div>
+    //   <section className="section1">
+    //     <div class="griddp-container-element">
+    //       <div class="grid-child-element purg">
+    //         <div className="the-neighboorhoodd">
+    //           <img
+    //             src="http://testdeploy.thesaruni.com/logogrey.png"
+    //             className="residence-neigh-logo-grey"
+    //             alt="logo"
+    //           />
+
+    //           <h6 className="gold-secttionn one">T H E </h6>
+    //           <h1 className="gold-secttionn two"> A M E N I T I E S</h1>
+    //         </div>
+
+    //         <div className="amenww-3">
+    //           <div className="ring">
+    //             <h1 className="careyy">CURATED FOR</h1>
+    //             <h1 className="careyy">LEISURE, </h1>
+    //             <h1 className="careyy">WELLNESS AND </h1>
+    //             <h1 className="careyy">REJUVENATION</h1>
+    //           </div>
+    //           <div>
+    //             {" "}
+    //             <p className="paragraph-infi"> The Lobby</p>
+    //             <p className="paragraph-infi">
+    //               The heated infinity swimming pool
+    //             </p>
+    //             <p className="paragraph-infi"> The Courtyard</p>
+    //             <p className="paragraph-infi">The Gym</p>
+    //             <p className="paragraph-infi"> The Eastward Sky Garden</p>
+    //             <p className="paragraph-infi">The Westward Sky Garden</p>
+    //             {" "}
+    //           </div>
+    //         </div>
+    //       </div>
+    //       {/* POOL */}
+    //       <div class="grid-child-element green">
+    //         <Carousel infiniteLoop>
+    //           <div>
+    //             <Pool />
+    //           </div>
+    //           <div>
+    //             <Courtyard />
+    //           </div>
+    //           <div>
+    //             <Gym />
+    //           </div>
+              
+    //         </Carousel>
+    //         <div
+    //           className="explore"
+    //           onClick={() => {
+    //             navigate("/menu");
+    //           }}
+    //         >
+    //           <h1
+    //             className="nav-to"
+    //             style={{
+    //               fontWeight: "normal",
+    //               fontSize: "25px",
+    //               marginTop: "-23px",
+    //             }}
+    //           >
+    //             GO TO MENU <FaAngleUp style={{ marginRight: "20px" }} />
+    //           </h1>
+    //         </div>
+    //       </div>
+    //     </div>
+    //   </section>
+    // </div>

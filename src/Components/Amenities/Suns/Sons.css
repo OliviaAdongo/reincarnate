@@ -1,0 +1,37 @@
+.simp {
+    color: white;
+  }
+  .sunr {
+    background-image: url("http://testdeploy.thesaruni.com/wakeupright.jpg");
+    height: 84vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+  
+  } 
+  .sunl {
+    background-image: url("http://testdeploy.thesaruni.com/wakeupleft.jpg");
+    height: 84vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+  }
+  .downr {
+    background-image: url("http://testdeploy.thesaruni.com/sundownright.jpg");
+    height: 84vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+  }
+  .downl {
+    background-image: url("http://testdeploy.thesaruni.com/sundownledt.jpg");
+    height: 84vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+  }
+  
