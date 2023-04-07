@@ -30,7 +30,7 @@ function Home() {
             navigate("/carousel"); 
           }}
         >
-        <FaAngleRight className="arrow" />
+        <FaAngleRight id="arrow" />
 
         </button>
           

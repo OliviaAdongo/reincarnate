@@ -227,8 +227,8 @@
   border-radius: 30px;
   border: 2px solid white;
 }
-.arrow {
-  transform: scale(3.5, 2.2);
+#arrow {
+  transform: scale(2.5, 2.2);
 }
 
 #button-pulseleft {

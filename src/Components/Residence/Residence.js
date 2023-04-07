@@ -23,11 +23,7 @@ function Residence() {
             <h1 className="gold-secttionn one"> R E S I D E N C E S</h1> 
           </div>
           
-          <div className="contentarea">
-          <h1  className="luxury" >L  U X U R Y</h1>
-          <h1 className="luxury" >U N I T S</h1>
-            
-          </div>
+         
           <div className="conten-twise">
             <h1 className="care" >CAREFULLY </h1>
             <h1 className="care" >CONSIDERED &</h1>
