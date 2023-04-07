@@ -8,23 +8,19 @@
   /* background-color: pink; */
   width: 390px;
   padding-top: 256px;
-  /* text-align: right; */
+  text-align: center;
   position: relative;
   height: 760px;
   flex-grow: 1;
-  padding-right: 20px;
 }
-.catch {
-  font-size: 38px;
-  color: goldenrod;
+.reside {
+  font-size: 26px;
+  color: #7b7471;
 }
-.rparagraph {
-  /* background-color: pink; */
-  font-size: 17px;
+.reside-paragraph {
+  font-size: 23px;
   color: #7b7471;
   font-weight: normal;
-  margin-top: 30px;
-  padding-left: 20px;
 }
 .flexbox-item-resident-2 {
   flex-grow: 1;
@@ -96,12 +92,5 @@ background-position: center center;
   width:120px;
   margin: 0 auto;
   position: relative;
-  /* text-align: right; */
   
-}
-
-.mid-top{
-  color: grey;
-  font-size: 20px;
-  margin-top: 10px;
 }

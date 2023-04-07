@@ -1,0 +1,54 @@
+.simp {
+  color: white;
+  padding-top: 26px;
+}
+.bedroomr {
+  background-image: url("http://testdeploy.thesaruni.com/bedright.jpg");
+  height: 84vh;
+  
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+
+}
+.bedrooml {
+  background-image: url("http://testdeploy.thesaruni.com/bedleft.jpg");
+  height: 84vh;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+.livingr {
+  background-image: url("http://testdeploy.thesaruni.com/livingright.jpg");
+  height: 84vh;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+.livingl {
+  background-image: url("http://testdeploy.thesaruni.com/livingleft.jpg");
+  height: 84vh;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+.kitchenl {
+  background-image: url("http://www.thesaruni.com/TheSaruniImages/kitchenleft.jpg");
+  height: 84vh;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+.kitchenr {
+  background-image: url("http://www.thesaruni.com/TheSaruniImages/kitchenright.jpg");
+  height: 84vh;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}

@@ -5,6 +5,7 @@ import Availability from "./Components/Availability/Availability";
 import Home from "./Components/Home/Home";
 import Cara from "./Components/Home/Cara";
 import Residence from "./Components/Residence/Residence";
+import Living from "./Components/Residence/Living";
 // import Available from "./Components/Availability/Available";
 
 function App() {
@@ -17,6 +18,8 @@ function App() {
         <Route path="/carousel" element={<Cara />} />
 {/* RESIDENCE */}
 <Route path="/residence" element={<Residence />} />
+<Route path="/livingroom" element={<Living />} />
+
 
 
 

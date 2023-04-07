@@ -1,15 +1,14 @@
 import "./Rooms.css";
 import { useNavigate } from "react-router-dom";
 import ChildNav from "../Navbar/ChildNav";
-// import { FaAngleUp } from "react-icons/fa";
 import { Carousel } from "react-responsive-carousel";
-import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
-import KitchenL from "./Rosel/KitchenL";
-import KitchenR from "./Rosel/KitchenR";
-import { FaAngleUp } from "react-icons/fa";
+import LivingL from "./Rosel/LivingL";
+import LivingR from "./Rosel/LivingR";
+import { FaAngleLeft, FaAngleRight } from "react-icons/fa";
 
-function Kitchen() { 
+function Living() {
   let navigate = useNavigate();
+
   return (
     <div className="kubwa-resident">
       <div>
@@ -17,20 +16,20 @@ function Kitchen() {
       </div>
       <div className="flexbox-container-living">
         <div className="flexbox-item-living1">
-          <div className="the-neighboorhoodd">
+          <div className="heading-area">
             <img
               src="http://testdeploy.thesaruni.com/logowhite.png"
-              className="residence-neigh-logo-grey"
+              className="grey-logo"
               alt="logo"
             />
-
-            <h6 className="gold-secttionn one">T H E </h6>
-            <h1 className="gold-secttionn one"> R E S I D E N C E S</h1>
           </div>
-
+          <div className="page-title">
+            <h6 className="page-heading top">T H E </h6>
+            <h1 className="page-heading"> R E S I D E N C E S</h1>
+          </div>
           <div className="sidebar-center">
             <h4
-              id="rooms"
+              className="activelink"
               onClick={() => {
                 navigate("/livingroom");
               }}
@@ -38,18 +37,18 @@ function Kitchen() {
               LIVING AREA
             </h4>
             <h4
-              id="rooms"
               onClick={() => {
                 navigate("/bedroom");
               }}
+              id="rooms"
             >
               BEDROOMS
             </h4>
             <h4
-              className="activelink"
               onClick={() => {
                 navigate("/kitchen");
               }}
+              id="rooms"
             >
               {" "}
               KITCHEN
@@ -68,33 +67,41 @@ function Kitchen() {
         <div className="flexbox-item-living2">
           <Carousel infiniteLoop>
             <div>
-              <KitchenL />
+              <LivingL />
+              <div>
+                <button
+                  className="fa fa-arrow-right"
+                  id="button-animation"
+                  onClick={() => {
+                    navigate("/livingroom");
+                  }}
+                  // style={{background:"pink"}}
+                >
+                  <FaAngleRight id="arrow" />
+                </button>
+              </div>
+              
             </div>
             <div>
-              <KitchenR />
+              <LivingR />
+              <div>
+                <button
+                  className="fa fa-arrow-right"
+                  id="button-animation"
+                  onClick={() => {
+                    navigate("/livingroom");
+                  }}
+                  // style={{background:"pink"}}
+                >
+                  <FaAngleRight id="arrow" />
+                </button>
+              </div>
             </div>
           </Carousel>
-          <div
-            className="explore"
-            onClick={() => {
-              navigate("/menu");
-            }}
-          >
-            <h1
-              className="nav-to"
-              style={{
-                fontWeight: "normal",
-                fontSize: "25px",
-                marginTop: "-23px",
-              }}
-            >
-              GO TO MENU <FaAngleUp style={{ marginRight: "20px" }} />
-            </h1>
-          </div>
         </div>
       </div>
     </div>
   );
 }
 
-export default Kitchen;
+export default Living;
