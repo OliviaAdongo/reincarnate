@@ -27,7 +27,7 @@ function Home() {
         <div>
         <button className="fa fa-arrow-right" id="button-pulseright"  
         onClick={() => {
-            navigate("/carousel"); 
+            navigate("/preparingpages"); 
           }}
         >
         <FaAngleRight id="arrow" />

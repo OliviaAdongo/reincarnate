@@ -6,6 +6,7 @@ import Home from "./Components/Home/Home";
 import Cara from "./Components/Home/Cara";
 import Residence from "./Components/Residence/Residence";
 import Living from "./Components/Residence/Living";
+import Redirect from "./Components/Home/Redirect";
 // import Available from "./Components/Availability/Available";
 
 function App() {
@@ -13,6 +14,8 @@ function App() {
     <Router>
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/preparingpages" element={<Redirect />} />
+
 
         <Route path="/menu" element={<FullMenu />} />
         <Route path="/carousel" element={<Cara />} />

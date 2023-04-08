@@ -240,3 +240,13 @@
   border-radius: 30px;
   border: 2px solid white;
 }
+.errorpage{
+  text-align: center;
+  color: goldenrod;
+
+  
+}
+.error{
+margin-top: -25px;
+  font-size: 40px;
+}
