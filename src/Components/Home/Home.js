@@ -18,11 +18,11 @@ function Home() {
             alt="logo"
             className="home-logo"
           />
-        </div>
+        </div> 
         <div className="home-content">
           <p className="lore">A L U X U R I O U S</p>
           <p className="lore">S A N C T U A R Y</p>
-          <p className="home-nest">nested in unparalleled tranquility</p>
+          <p className="home-nest">nestled in unparalleled tranquility</p>
         </div>
         <div>
         <button className="fa fa-arrow-right" id="button-pulseright"  

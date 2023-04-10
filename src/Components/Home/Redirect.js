@@ -9,7 +9,7 @@ function Redirect() {
                 className="grey-logo"
                 alt="logo"
               />
-        <h1 className='error'>WE WILL HAVE THE OTHER PAGES READY SOON FOR NOW VIEW THESE: </h1>
+        <h1 className='error'>WE WILL HAVE THE OTHER PAGES READY SOON: </h1>
         <div  style={{color:"grey", marginTop:"30px", fontSize:"25px"}}>  
 
         
