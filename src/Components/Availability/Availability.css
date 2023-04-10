@@ -3,6 +3,7 @@
   text-align: center;
   height: 90px;
   background-color: goldenrod;
+  box-sizing: content-box;
 }
 .topic-lux {
   margin-top: 15px;
@@ -49,7 +50,7 @@
   justify-content: space-evenly;
 }
 .lux-body-upjuu {
-  width: 615px;
+  width: 620px;
   border-right: 1px solid #7b7471;
   border-bottom: 1px solid #7b7471;
   padding-right: 10px;

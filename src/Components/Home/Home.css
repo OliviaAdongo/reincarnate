@@ -10,16 +10,19 @@
   background-size: cover;
   height: 100vh;
   justify-content: left;
+  background-attachment:scroll;
 }
 .home-logo {
-  height: 140px;
-  padding: 65px 0px 0 75px;
+  height: 170px;
+  padding: 65px 0px 0px 75px;
+  margin-bottom: -6px;
 }
 .home-content {
-  padding: 25px 0px 10px 75px;
+  padding: 1px 0px 10px 80px;
+  /* background-color: pink; */
 }
 .lore {
-  font-size: 40px;
+  font-size: 43px;
   padding: 19px 0px 10px 5px;
   color: white;
   font-weight: bold;
@@ -221,7 +224,7 @@
   background: transparent;
   height: 60px;
   width: 60px;
-  margin-top: 20px;
+  margin-top: 60px;
   margin-right: 20px;
   color: white;
   border-radius: 30px;

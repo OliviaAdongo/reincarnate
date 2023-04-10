@@ -11,10 +11,10 @@ function Availability() {
         <div className="flexbox-item-availability1">
           <div className="lux-heading">
             <h1 className="topic-lux">LUXURY UNITS AVAILABLE </h1>
-            {/* <h6 className="reserve">
+            <h6 className="reserve">
               CALL: +254 759 278 564 or +254 745 466 346 to make your
               reservation
-            </h6> */}
+            </h6>
           </div>
           {/* BODY SECTION */}
           <div className="sect-body">
