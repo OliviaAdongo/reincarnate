@@ -11,10 +11,10 @@ function Availability() {
         <div className="flexbox-item-availability1">
           <div className="lux-heading">
             <h1 className="topic-lux">LUXURY UNITS AVAILABLE </h1>
-            <h6 className="reserve">
+            {/* <h6 className="reserve">
               CALL: +254 759 278 564 or +254 745 466 346 to make your
               reservation
-            </h6>
+            </h6> */}
           </div>
           {/* BODY SECTION */}
           <div className="sect-body">
@@ -64,7 +64,7 @@ function Availability() {
                     Open plan Kitchen fit with European appliances
                   </li>
                   <li className="body-lux one">
-                    Well-ventilated Laundry Yard and{" "}
+                    Well-ventilated Laundry Yard
                   </li>
                   <li className="body-lux one">
                     Beautiful useable sizeable balconies
@@ -75,6 +75,7 @@ function Availability() {
                   </li>
                 </ul>
               </div>
+              
             </div>
 
             <div className="body-two">
@@ -97,7 +98,7 @@ function Availability() {
                     Open plan Kitchen fit with European appliances
                   </li>
                   <li className="body-lux one">
-                    Well-ventilated Laundry Yard and{" "}
+                    Well-ventilated Laundry Yard 
                   </li>
                   <li className="body-lux one">
                     Beautiful useable sizeable balconies
@@ -138,6 +139,8 @@ function Availability() {
                 </ul>
               </div>
             </div>
+
+
           </div>
           {/* <div className="lux-bottom">
             <h1 className="reserver">

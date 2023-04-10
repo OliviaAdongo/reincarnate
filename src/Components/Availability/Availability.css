@@ -41,7 +41,7 @@
   height: 100%;
   /* background-color: pink; */
   justify-content: space-evenly;
-  overflow: scroll;
+  overflow: hidden;
 }
 .body-two {
   display: flex;
@@ -55,12 +55,15 @@
   padding-right: 10px;
   padding-top: 10px;
   padding-bottom: 25px;
+  box-sizing: border-box;
+
 }
 .lux-body-upple {
   padding-right: 10px;
   border-bottom: 1px solid #7b7471;
   padding-bottom: 25px;
   padding-top: 10px;
+  box-sizing: border-box;
 }
 
 .lux-body-updown {

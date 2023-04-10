@@ -20,8 +20,8 @@ function Home() {
           />
         </div> 
         <div className="home-content">
-          <p className="lore">A L U X U R I O U S</p>
-          <p className="lore">S A N C T U A R Y</p>
+          <p className="lore">A LUXURIOUS</p>
+          <p className="lore">SANCTUARY</p>
           <p className="home-nest">nestled in unparalleled tranquility</p>
         </div>
         <div>
