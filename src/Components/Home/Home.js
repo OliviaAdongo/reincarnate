@@ -2,6 +2,7 @@ import { FaAngleRight} from "react-icons/fa";
 import "./Home.css";
 import { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
+import Navbar from "../Navbar/Navbar";
 
 function Home() {
   let navigate = useNavigate()
@@ -12,6 +13,7 @@ function Home() {
   return (
     <div>
       <div className="flexbox-container">
+      <Navbar/>
         <div className="logo-section-landing">
           <img
             src="https://testdeploy.thesaruni.com/Saruni-Logo.png"
