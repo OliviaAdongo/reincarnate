@@ -1,7 +1,7 @@
 .lux-heading {
   padding: 10px;
   text-align: center;
-  height: 90px;
+  height: auto;
   background-color: goldenrod;
   box-sizing: content-box;
 }
@@ -9,7 +9,7 @@
   margin-top: 15px;
   font-weight: normal;
   color: #7b7471;
-  padding-top: 15px;
+  padding-top: 13px;
   font-size: 38px;
 }
 .reserve {

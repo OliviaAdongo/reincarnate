@@ -14,16 +14,9 @@ function NeighborMap() {
             alt="residence"
             className="map"
             loading="lazy"
-          />
+          /> 
       </div>
-      <section className="explore-section">
-        <h1 className="explorer">
-          <a href="/neighborhood" className="downarrow jir">
-            EXPLORE MORE
-            <FaAngleDown />
-          </a>
-        </h1>
-      </section>
+      
     </div>
     
   );

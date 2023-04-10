@@ -36,6 +36,9 @@ function ChildNav() {
             <a href="/contact" className="menutext" st>
               CONTACT
             </a>
+            <a href="/map" className="menutext" st>
+              LOCATION
+            </a>
           </div>
 
           <a href="/menu" className="barss">

@@ -13,24 +13,28 @@
   background-attachment:scroll;
 }
 .home-logo {
-  height: 170px;
-  padding: 65px 0px 0px 75px;
-  margin-bottom: -6px;
+  height: 190px;
+  padding: 65px 0px 0px 28px;
+ 
+  margin-top: -78px;
 }
 .home-content {
-  padding: 1px 0px 10px 80px;
-  /* background-color: pink; */
+  margin-top: 40px;
+  padding: 1px 0px 10px 79px;
+
 }
 .lore {
-  font-size: 43px;
+   font-family: "paragone";
+  font-size: 39px;
   padding: 19px 0px 10px 5px;
   color: white;
   font-weight: bold;
 }
 .home-nest {
   font-family: "paragone";
-  color: white;
-  font-size: 25px;
+  color: #000;
+  font-size: 28px;
+  margin-left: 8px;
 }
 
 @-moz-keyframes bounceDown {

@@ -7,6 +7,8 @@ import Cara from "./Components/Home/Cara";
 import Residence from "./Components/Residence/Residence";
 import Living from "./Components/Residence/Living";
 import Redirect from "./Components/Home/Redirect";
+import ResidenceHome from "./Components/Residence/ResidenceHome";
+import NeighborMap from "./Components/Neighborhood/NeighborMap";
 // import Available from "./Components/Availability/Available";
 
 function App() {
@@ -21,6 +23,10 @@ function App() {
         <Route path="/carousel" element={<Cara />} />
 {/* RESIDENCE */}
 <Route path="/residence" element={<Residence />} />
+<Route path="/map" element={<NeighborMap />} />
+
+
+
 <Route path="/livingroom" element={<Living />} />
 
 

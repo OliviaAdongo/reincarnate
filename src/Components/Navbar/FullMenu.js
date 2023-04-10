@@ -57,18 +57,22 @@ function FullMenu() {
           </a>
 
           <a href="/preparingpages">
-            <h1 className="menu-opt">A LIFESTYLE CONCIEVED ...</h1>
+            <h1 className="menu-opt">A LIFESTYLE CONCEIVED ...</h1>
             <h6 className="description">AMENITIES</h6>
           </a>
           <a href="/preparingpages">
             <h1 className="menu-opt">AN EXCLUSIVE ADDRESS</h1>
             <h6 className="description">THE NEIGHBORHOOD</h6>
           </a>
+          <a href="/map">
+            <h1 className="menu-opt">LOCATION</h1>
+            <h6 className="description"> THE MAP</h6>
+          </a>
 
-          <h1 className="menu-opt">ABOUT US </h1>
+          {/* <h1 className="menu-opt">ABOUT US </h1>
           <a href="/contact">
             <h1 className="menu-opt">CONTACT</h1>
-          </a>
+          </a> */}
         </div>
       </div>
     </div>

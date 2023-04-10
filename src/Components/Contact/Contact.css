@@ -34,7 +34,7 @@
 .strand{
   text-align: left;
   color: grey;
-  font-size: 14px;
+  font-size: 15px;
   margin-top: 15px;
 }
 .address{
@@ -43,15 +43,20 @@
 }
 .the-address { 
   color: gray; 
-  height: 149px; 
+  height: auto; 
   background: rgb(62, 61, 61);
-  padding-top: 25px;
-  text-align: center;
+  padding: 25px 5px 25px 15px;
+  text-align: left;
 } 
 .find{
-  color: goldenrod;
+  /* color: goldenrod; */
   margin-top: 20px;
-  font-size: 23px;
+  font-size: 20px;
+}
+.fd{
+  /* color: goldenrod; */
+  margin-top: 5px;
+  font-size: 20px;
 }
 .small-paragraph{
   padding-top: 10px;
@@ -75,4 +80,26 @@
 #post{
 /* background-color: peru; */
 padding-left: 20px;
+padding-bottom: 25px;
+}
+#pot{
+  /* background-color: peru; */
+  padding-left: 20px;
+  padding-top: 20px;
+  }
+.getintouch{
+  font-style: italic;
+  color: goldenrod;
+  font-size: bold;
+  font-family: 'paragone';
+
+}
+@font-face {
+  font-family: 'paragone';
+  src: url(/paragone-luxury-serif-font/Paragone/Paragone.otf);
+}
+.building{
+  object-fit: contain;
+  height: 100%;
+  width: 100%;
 }

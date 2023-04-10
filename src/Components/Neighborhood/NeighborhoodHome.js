@@ -24,7 +24,7 @@ function NeighborhoodHome() {
 </div>
       <h4 className="reside  "
       
-      >N A I R O B I ' S </h4>
+      >A N </h4>
       <h4
         className="reside  "
         style={{ marginTop: "15px", marginBottom: "15px" }}
@@ -43,7 +43,7 @@ function NeighborhoodHome() {
        A D D R E S S 
       </h4>
   
-      <h5 className="reside-paragraph" style={{marginTop:"15px"}}>A statement of luxury and prestige </h5>
+      <h5 className="reside-paragraph" style={{marginTop:"15px"}}>Riverside Drive is the premium expression of privacy,prestige and convenience  </h5>
      
   
       {/* <button

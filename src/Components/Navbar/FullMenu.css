@@ -33,9 +33,10 @@ a{
 }
 .description{
   text-decoration: none;
-  color: white;
+  color: black;
   margin-top: 2px;
   font-size: 13px;
+  font-weight: bold;
 }
 .back-image{
   width: 100%;
@@ -53,8 +54,9 @@ a{
   text-align: center;
 }
 .option1{
-  background: rgba(0, 0, 0, 0.6); /* Black background with 0.5 opacity */
+  background: rgba(0, 0, 0, 0.0); /* Black background with 0.5 opacity */
   height: 100vh;
   padding-top: 20px;
+  padding-left: 70px;
 
 }

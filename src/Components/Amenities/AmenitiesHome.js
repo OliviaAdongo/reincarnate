@@ -21,7 +21,7 @@ function AmenitiesHome() {
 
         >
           {" "}
-          M E T I C U L O U S L Y
+         CONCEIVED
         </h4>
         <h4
           className="reside style"

@@ -14,6 +14,7 @@ function Home() {
     <div>
       <div className="flexbox-container">
       <Navbar/>
+      
         <div className="logo-section-landing">
           <img
             src="https://testdeploy.thesaruni.com/Saruni-Logo.png"
@@ -22,10 +23,11 @@ function Home() {
           />
         </div> 
         <div className="home-content">
-          <p className="lore">A LUXURIOUS</p>
+          <p className="lore"> RESIDE IN A LUXURIOUS </p>
           <p className="lore">SANCTUARY</p>
-          <p className="home-nest">nestled in unparalleled tranquility</p>
+          <p className="home-nest">Nestled in unparalleled tranquility</p>
         </div>
+
         <div>
         <button className="fa fa-arrow-right" id="button-pulseright"  
         onClick={() => {
