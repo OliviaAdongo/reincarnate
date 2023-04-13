@@ -3,7 +3,7 @@ import './Rosel.css'
 function BedroomR() {
   return (
     <div className='bedroomr'>
-        {/* <h1>The Bedroom</h1> */}
+        <h1 className='simper'>The Bedroom</h1>
     </div>
   )
 }

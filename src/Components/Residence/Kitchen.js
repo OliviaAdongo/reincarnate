@@ -130,17 +130,6 @@ function Kitchen() {
             </Slider>
           </CarouselProvider>
 
-
-
-          {/* <Carousel infiniteLoop>
-            <div>
-              <KitchenL />
-            </div>
-            <div>
-              <KitchenR />
-            </div>
-          </Carousel> */}
-    
         </div>
       </div>
     </div>

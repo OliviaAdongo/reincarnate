@@ -1,11 +1,20 @@
 .simp {
   color: white;
   padding-top: 26px;
+  text-align: right;
+  font-size: 18px;
+  padding-right: 20px;
+}
+.simper {
+  color: black;
+  padding-top: 26px;
+  text-align: right;
+  font-size: 18px;
+  padding-right: 20px;
 }
 .bedroomr {
   background-image: url("http://testdeploy.thesaruni.com/bedright.jpg");
   height: 84vh;
-  
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
