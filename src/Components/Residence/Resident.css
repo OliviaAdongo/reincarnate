@@ -23,6 +23,8 @@
   font-weight: normal;
   margin-top: 15px;
   margin-bottom: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 .flexbox-item-resident-2 {
   flex-grow: 1;

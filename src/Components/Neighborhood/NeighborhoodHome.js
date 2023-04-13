@@ -36,9 +36,12 @@ function NeighborhoodHome() {
         </h4>
 
         <h5 className="reside-paragraph">
-          Riverside Drive is the premium expression of
+          Riverside Drive is the premium 
+          
+          
         </h5>
-        <h5 className="reside-paragraph">privacy,prestige and convenience.</h5>
+        <h5 className="reside-paragraph">expression of privacy,   </h5>
+        <h5 className="reside-paragraph">prestige and convenience.</h5>
       </div>
     </div>
   );
