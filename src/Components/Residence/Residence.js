@@ -13,6 +13,7 @@ function Residence() {
       </div>
       <div className="section1">
         <div class="grid-resident-element">
+        {/* LEFT CONTENT SECTION */}
           <div class="grid-child-purple">
             <div className="heading-area">
               <img
@@ -25,7 +26,6 @@ function Residence() {
 
             
             <div className="page-title">
-              {/* <h6 className="page-heading top">T H E </h6> */}
               <h1 className="page-type"> THE RESIDENCES</h1>
             </div>
 
@@ -44,6 +44,7 @@ function Residence() {
               </p>
             </div>
           </div>
+          {/* IMAGE SECTION */}
           <div class="grid-child-element green">
             <img
               src="http://testdeploy.thesaruni.com/residenceluxury.jpg"
@@ -58,20 +59,12 @@ function Residence() {
                 onClick={() => {
                   navigate("/livingroom");
                 }}
-                // style={{background:"pink"}}
+            
               >
                 <FaAngleRight id="arrow" />
               </button>
 
-              {/* <button className="fa fa-arrow-left" id="button-pulseleft">
-        <FaAngleLeft className="arrow" />
-
-        </button>
-           */}
-
-              {/* <i class="fa fa-arrow-left"></i>
-          <i class="fa fa-chevron-down"></i>
-          <i class="fa fa-arrow-right"></i> */}
+  
             </div>
           </div>
         </div>
