@@ -21,7 +21,7 @@ function App() {
         <Route path="/menu" element={<FullMenu />} />
         <Route path="/carousel" element={<Cara />} />
         {/* RESIDENCE */}
-        {/* <Route path="/residence" element={<Residence />} /> */}
+        <Route path="/residence" element={<Residence />} />
         <Route path="/map" element={<NeighborMap />} />
 
         <Route path="/livingroom" element={<Living />} />

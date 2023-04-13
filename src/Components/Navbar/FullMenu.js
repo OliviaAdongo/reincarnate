@@ -16,7 +16,7 @@ function FullMenu() {
             <h6 className="description">AVAILABLE RESIDENCES</h6>
           </a>
 
-          <a href="/preparingpages">
+          <a href="/residence">
             <h1 className="menu-opt">METICULOUSLY DESIGNED</h1>
             <h6 className="description">THE RESIDENCES</h6>
           </a>
