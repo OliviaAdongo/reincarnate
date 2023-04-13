@@ -5,6 +5,14 @@ import { Carousel } from "react-responsive-carousel";
 import LivingL from "./Rosel/LivingL";
 import LivingR from "./Rosel/LivingR";
 import { FaAngleLeft, FaAngleRight } from "react-icons/fa";
+import {
+  CarouselProvider,
+  Slider,
+  Slide,
+  ButtonBack,
+  ButtonNext,
+} from "pure-react-carousel";
+import "pure-react-carousel/dist/react-carousel.es.css";
 
 function Living() {
   let navigate = useNavigate();
@@ -16,8 +24,8 @@ function Living() {
       </div>
       <div className="flexbox-container-living">
         <div className="flexbox-item-living1">
-        
-            
+
+
           <div className="heading-area">
             <img
               src="http://testdeploy.thesaruni.com/logowhite.png"
@@ -27,8 +35,8 @@ function Living() {
           </div>
 
           <div className="page-title">
-              <h1 className="page-type"> THE RESIDENCES</h1>
-            </div>
+            <h1 className="page-type"> THE RESIDENCES</h1>
+          </div>
 
           <div className="sidebar-center">
             <h4
@@ -72,9 +80,10 @@ function Living() {
               id="rooms"
             >
               {" "}
-             BATHROOM
+              BATHROOM
             </h4>
           </div>
+
 
 
 
@@ -87,11 +96,34 @@ function Living() {
               relied upon as being complete or accurate
             </p>
           </div>
-
-        
+          
         </div>
         <div className="flexbox-item-living2">
-          <Carousel infiniteLoop>
+          <CarouselProvider
+            naturalSlideWidth={100}
+            naturalSlideHeight={120}
+            totalSlides={2}
+          >
+            <Slider>
+              <Slide index={0}>
+                {" "}
+                <LivingL />
+                <ButtonNext className="fa fa-arrow-right" id="button-pulseleft">
+                  <FaAngleRight id="arrow" />
+                </ButtonNext>
+              </Slide>
+
+              <Slide index={1}>
+                <LivingR />
+
+                <ButtonBack className="fa fa-arrow-right" id="button-pulseleft">
+                  <FaAngleLeft id="arrow" />
+                </ButtonBack>
+              </Slide>
+            </Slider>
+          </CarouselProvider>
+
+          {/* <Carousel infiniteLoop>
             <div>
               <LivingL />
               <div>
@@ -105,7 +137,6 @@ function Living() {
                   <FaAngleRight id="arrow" />
                 </button>
               </div>
-              
             </div>
             <div>
               <LivingR />
@@ -116,15 +147,13 @@ function Living() {
                   onClick={() => {
                     navigate("/livingroom");
                   }}
-               
                 >
                   <FaAngleRight id="arrow" />
                 </button>
               </div>
             </div>
-          </Carousel>
+          </Carousel> */}
         </div>
-        
       </div>
     </div>
   );

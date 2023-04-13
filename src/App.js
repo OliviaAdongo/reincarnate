@@ -10,6 +10,8 @@ import Redirect from "./Components/Home/Redirect";
 import ResidenceHome from "./Components/Residence/ResidenceHome";
 import NeighborMap from "./Components/Neighborhood/NeighborMap";
 import "./App.css";
+import Kitchen from "./Components/Residence/Kitchen";
+import Bedroom from "./Components/Residence/Bedroom";
 function App() {
   return (
     <Router>
@@ -24,6 +26,9 @@ function App() {
         <Route path="/map" element={<NeighborMap />} />
         {/* ROOMS */}
         <Route path="/livingroom" element={<Living />} />
+        <Route path="/kitchen" element={<Kitchen />} />
+        <Route path="/bedroom" element={<Bedroom />} />
+
 
         <Route path="/availability" element={<Availability />} />
         <Route path="/contact" element={<Contact />} />

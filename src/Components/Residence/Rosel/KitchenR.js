@@ -8,4 +8,4 @@ function KitchenR() {
   )
 }
 
-export default KitchenR
+export default KitchenR 
