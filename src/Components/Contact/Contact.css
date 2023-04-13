@@ -98,7 +98,7 @@ padding-bottom: 2px;
   src: url(/paragone-luxury-serif-font/Paragone/Paragone.otf);
 }
 .building{
-  object-fit: contain;
+  /* object-fit: contain; */
   height: 100%;
   width: 100%;
 }
