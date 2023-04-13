@@ -22,6 +22,11 @@ function Redirect() {
             <h6 className="descripton">AVAILABLE RESIDENCES</h6>
             
           </a>
+          <a href="/residence" className='err'  style={{color:"grey"}}>
+            <h1 className="men-opt" style={{color:"grey", marginTop:"30px"}}>METICULOUSLY DESIGNED</h1>
+            <h6 className="descripton">THE RESIDENCES</h6>
+            
+          </a>
           <a href="/contact" style={{color:"grey"}}>
 
             <h1 className="men-opt" style={{ marginTop:"30px"}}>CONTACT</h1>
