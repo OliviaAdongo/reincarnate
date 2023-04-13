@@ -8,11 +8,11 @@
 .activelink {
   margin-top: 30px;
   color: goldenrod;
-  font-size: 23px;
+  font-size: 20px;
 }
 #rooms {
   margin-top: 20px;
-  font-size: 20px;
+  font-size: 18px;
   color: grey;
 }
 
@@ -41,24 +41,20 @@
 }
 
 
-
-
-
 .flexbox-container-living {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: stretch;
-  /* background-color: yellow; */
   height: 87vh;
   padding: 0px 20px 10px 20px;
-  /* position: relative; */
 }
 
 .flexbox-item-living1 {
   position: relative;
   width: 140px;
   flex-grow: 1;
+  margin-right: 20px;
  
 }
 .flexbox-item-living2 {

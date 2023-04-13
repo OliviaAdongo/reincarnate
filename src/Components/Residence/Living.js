@@ -16,6 +16,8 @@ function Living() {
       </div>
       <div className="flexbox-container-living">
         <div className="flexbox-item-living1">
+        
+            
           <div className="heading-area">
             <img
               src="http://testdeploy.thesaruni.com/logowhite.png"
@@ -99,7 +101,6 @@ function Living() {
                   onClick={() => {
                     navigate("/livingroom");
                   }}
-                  // style={{background:"pink"}}
                 >
                   <FaAngleRight id="arrow" />
                 </button>
@@ -115,7 +116,7 @@ function Living() {
                   onClick={() => {
                     navigate("/livingroom");
                   }}
-                  // style={{background:"pink"}}
+               
                 >
                   <FaAngleRight id="arrow" />
                 </button>
@@ -123,6 +124,7 @@ function Living() {
             </div>
           </Carousel>
         </div>
+        
       </div>
     </div>
   );
