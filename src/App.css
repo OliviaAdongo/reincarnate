@@ -1,38 +1,32 @@
-.App {
+/* GENERAL CSS */
+.heading-area{
+  background-color: goldenrod;
   text-align: center;
+  box-sizing: border-box;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.grey-logo{
+  height: 190px;
+  width: 190px;
+  
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.page-title{
+  padding-top: 20px;
+  border-bottom: 3px solid goldenrod;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  box-sizing: border-box;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.middle-body{
+ margin-top: 30px;
+ padding-left: 20px;
+ padding-bottom: 20px;
 }
-
-.App-link {
-  color: #61dafb;
+.care {
+  color: grey;
+  font-size: 28px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h1.page-type{
+  color: grey;
+  font-size: 39px;
 }

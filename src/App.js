@@ -9,8 +9,7 @@ import Living from "./Components/Residence/Living";
 import Redirect from "./Components/Home/Redirect";
 import ResidenceHome from "./Components/Residence/ResidenceHome";
 import NeighborMap from "./Components/Neighborhood/NeighborMap";
-// import Available from "./Components/Availability/Available";
-
+import './App.css'
 function App() {
   return (
     <Router>

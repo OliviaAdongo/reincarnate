@@ -21,12 +21,15 @@ function Residence() {
                 alt="logo"
               />
             </div>
+
+
+            
             <div className="page-title">
-              <h6 className="page-heading top">T H E </h6>
-              <h1 className="page-heading"> R E S I D E N C E S</h1>
+              {/* <h6 className="page-heading top">T H E </h6> */}
+              <h1 className="page-type"> THE RESIDENCES</h1>
             </div>
 
-            <div className="conten-twise">
+            <div className="middle-body">
               <h1 className="care">CAREFULLY </h1>
               <h1 className="care">CONSIDERED &</h1>
 
@@ -45,7 +48,7 @@ function Residence() {
             <img
               src="http://testdeploy.thesaruni.com/residenceluxury.jpg"
               alt="residence"
-              className="childimage"
+              className="roomimage"
               loading="lazy"
             />
             <div>
@@ -73,22 +76,7 @@ function Residence() {
           </div>
         </div>
       </div>
-      {/* <div
-        className="explore"
-        onClick={() => {
-          navigate("/livingroom");
-        }}
-      >
-        <h1
-          className="nav-to"
-          style={{ fontWeight: "normal", fontSize: "25px" }}
-        >
-          EXPLORE THE RESIDENCES
-        </h1>
-        <h1 className="downangle">
-          <FaAngleDown style={{ marginRight: "20px" }} />
-        </h1>
-      </div> */}
+      
     </div>
   );
 }
