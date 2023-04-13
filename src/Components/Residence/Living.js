@@ -23,10 +23,11 @@ function Living() {
               alt="logo"
             />
           </div>
+
           <div className="page-title">
-            <h6 className="page-heading top">T H E </h6>
-            <h1 className="page-heading"> R E S I D E N C E S</h1>
-          </div>
+              <h1 className="page-type"> THE RESIDENCES</h1>
+            </div>
+
           <div className="sidebar-center">
             <h4
               className="activelink"
@@ -53,16 +54,39 @@ function Living() {
               {" "}
               KITCHEN
             </h4>
+            <h4
+              onClick={() => {
+                navigate("/preparingpages");
+              }}
+              id="rooms"
+            >
+              {" "}
+              DINING
+            </h4>
+            <h4
+              onClick={() => {
+                navigate("/preparingpages");
+              }}
+              id="rooms"
+            >
+              {" "}
+             BATHROOM
+            </h4>
           </div>
-          <div className="paragraph-bottom-disclaimer">
-            <h4 id="disclaimer1">DISCLAIMER</h4>
-            <p id="disclaimer2">
+
+
+
+          <div className="disclaimer-section">
+            <h4 id="disclaimer-title">DISCLAIMER</h4>
+            <p id="disclaimer-body">
               These 3 & 2 bedroom apartment artistic impressions or image
               renders contained on this website are for illustrative on this
               website are for illustrative purposes only and should not be
               relied upon as being complete or accurate
             </p>
           </div>
+
+        
         </div>
         <div className="flexbox-item-living2">
           <Carousel infiniteLoop>
