@@ -52,7 +52,7 @@ function Residence() {
               className="roomimage"
               loading="lazy"
             />
-            <div>
+            <div className="right-arrow-responsive">
               <button
                 className="fa fa-arrow-right"
                 id="button-animation"
