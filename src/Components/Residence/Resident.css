@@ -21,6 +21,8 @@
   font-size: 23px;
   color: #7b7471;
   font-weight: normal;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 .flexbox-item-resident-2 {
   flex-grow: 1;

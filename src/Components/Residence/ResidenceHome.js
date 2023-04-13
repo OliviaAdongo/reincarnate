@@ -1,9 +1,6 @@
 import "./Resident.css";
-// import { useNavigate } from "react-router-dom";
 
 function ResidenceHome() {
-  // let navigate = useNavigate();
-
   return (
     <div className="flexbox-container-resident">
       <div className="flexbox-item-resident-1">
@@ -11,19 +8,16 @@ function ResidenceHome() {
           <img src="https://thesaruni.com/images/SaruniLogo.png" alt="Logo" />
         </div>
         <h4 className="reside">INSPIRATION </h4>
-        <h5 className="reside-paragraph ">
-          THE SARUNI, is a unique contemporary development that is the
+        <h5 className="reside-paragraph">
+          THE SARUNI, is a unique contemporary
+        </h5>
+        <h5 className="reside-paragraph">development that is the </h5>
+        <h5 className="reside-paragraph">
+          {" "}
           embodiment of a luxurious lifestyle{" "}
         </h5>
         <h5 className="reside-paragraph"> surrounded by spectacular </h5>
-        <h5
-          className="reside-paragraph"
-          style={{ marginTop: "15px", marginBottom: "15px" }}
-        >
-          {" "}
-          uninterrupted views
-        </h5>
-  
+        <h5 className="reside-paragraph"> uninterrupted views.</h5>
       </div>
       <div className="flexbox-item-resident-2">
         <img

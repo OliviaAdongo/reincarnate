@@ -18,23 +18,16 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/preparingpages" element={<Redirect />} />
 
-
         <Route path="/menu" element={<FullMenu />} />
         <Route path="/carousel" element={<Cara />} />
-{/* RESIDENCE */}
-<Route path="/residence" element={<Residence />} />
-<Route path="/map" element={<NeighborMap />} />
+        {/* RESIDENCE */}
+        {/* <Route path="/residence" element={<Residence />} /> */}
+        <Route path="/map" element={<NeighborMap />} />
 
+        <Route path="/livingroom" element={<Living />} />
 
-
-<Route path="/livingroom" element={<Living />} />
-
-
-
-
-        
         <Route path="/availability" element={<Availability />} />
-        <Route path="/contact" element={<Contact  />} />
+        <Route path="/contact" element={<Contact />} />
       </Routes>
     </Router>
   );
