@@ -9,7 +9,10 @@ function ResidenceHome() {
         </div>
         <h4 className="reside">INSPIRATION </h4>
         <h5 className="reside-paragraph">
-          THE SARUNI, is a unique contemporary
+          THE SARUNI, is a unique
+        </h5>
+        <h5 className="reside-paragraph">
+          contemporary
         </h5>
         <h5 className="reside-paragraph">development that is the </h5>
         <h5 className="reside-paragraph">
