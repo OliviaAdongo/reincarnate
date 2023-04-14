@@ -73,18 +73,16 @@
   color: grey;
   font-weight: bold;
 }
-.spec{
-  height: 120px;
-}
+
 #post{
 /* background-color: peru; */
 padding-left: 20px;
-padding-bottom: 2px;
+padding-bottom: 3px;
 }
 #pot{
 
   padding-left: 20px;
-  padding-top: 2px;
+  padding-top: 1px;
   }
 .getintouch{
   font-style: italic;

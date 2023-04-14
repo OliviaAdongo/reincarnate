@@ -15,6 +15,7 @@ import Bedroom from "./Components/Residence/Bedroom";
 import Bathroom from "./Components/Residence/Bathroom";
 import Dining from "./Components/Residence/Dining";
 import Neighborhood from "./Components/Neighborhood/Neighborhood";
+import About from "./Components/About/About";
 function App() {
   return (
     <Router>
@@ -26,6 +27,7 @@ function App() {
         <Route path="/carousel" element={<Cara />} />
         {/* RESIDENCE */}
         <Route path="/residence" element={<Residence />} />
+        <Route path="/about" element={<About />} />
 
 
         <Route path="/neighborhood" element={<Neighborhood />} />

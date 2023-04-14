@@ -57,7 +57,7 @@ function AmenitiesHome() {
       </div>
       <div className="flexbox-item-amenity-2">
       <img
-        src="http://testdeploy.thesaruni.com/rover.jpg"
+        src="http://testdeploy.thesaruni.com/kai.jpg"
           alt="residence"
           className="amenity-profile"
           loading="lazy"

@@ -1,0 +1,47 @@
+.about {
+    box-sizing: border-box;
+  /* height: 94vh; */
+  /* background: rgb(62, 61, 61); */
+  padding: 25px 5px 25px 15px;
+  text-align: left;
+}
+.spec {
+  height: 120px;
+}
+.ablogo {
+    margin-top: -16px;
+  text-align: center;
+  background: rgb(62, 61, 61);
+}
+.dome {
+  width: 100%;
+  height: 100vh;
+  /* object-fit: contain; */
+}
+#about {
+  color: grey;
+ font-size: 14px;
+}
+#contributer {
+  padding-left: 20px;
+}
+.developer {
+  margin-top: 10px;
+  font-weight: bold;
+  font-size: 13px;
+  text-decoration: underline;
+  color: goldenrod;
+  /* padding-bottom: 5px; */
+}
+.address-developer {
+  text-align: left;
+  color: grey;
+  font-size: 13px;
+  margin-top: 3px;
+}
+.property-developers {
+  padding: 15px 10px 10px 0px;
+  height: 120px;
+  color: goldenrod;
+  border-top: 2px solid grey;
+}
