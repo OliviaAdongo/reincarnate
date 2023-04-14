@@ -103,7 +103,8 @@ function WestSkygarden() {
             <Slider>
               <Slide index={0}>
                 {" "}
-                <Tua />
+                <West />
+               
                 
                 <ButtonNext className="fa fa-arrow-right" id="button-pulseleft">
                   <FaAngleRight id="arrow" />
@@ -111,7 +112,7 @@ function WestSkygarden() {
               </Slide>
 
               <Slide index={1}>
-              <West />
+              <Tua />
 
                 <ButtonBack className="fa fa-arrow-right" id="button-pulseleft">
                   <FaAngleLeft id="arrow" />

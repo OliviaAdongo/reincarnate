@@ -27,9 +27,9 @@ function Amenities() {
           <div className="amenities-logo">
             <img
               src="http://testdeploy.thesaruni.com/SaruniLogo.png"
-              className="spec"
+              className="saruni-logo"
               alt="logo"
-            />
+            /> 
           </div>
 
           <div className="page-title">

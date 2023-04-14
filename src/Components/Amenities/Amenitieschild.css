@@ -328,4 +328,10 @@ h1.amen-section {
 .amenities-logo{
   text-align: center;
   background: rgb(62, 61, 61);
+  padding-top: 20px;
+  padding-bottom: 20px;
+  /* height: 120px; */
+}
+.saruni-logo {
+  height: 90px;
 }
