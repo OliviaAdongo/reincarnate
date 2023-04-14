@@ -3,7 +3,7 @@
   src: url(/paragone-luxury-serif-font/Paragone/Paragone.otf);
 }
 .flexbox-container {
-  /* background-image: url("http://testdeploy.thesaruni.com/home.jpg"); */
+ 
   background-image: url("/src/Components/Home/landingsmall.jpg");
   background-position: center center;
   background-repeat: no-repeat;

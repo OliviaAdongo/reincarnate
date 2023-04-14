@@ -65,7 +65,7 @@ function Bedroom() {
             </h4>
             <h4
               onClick={() => {
-                navigate("/preparingpages");
+                navigate("/dining");
               }}
               id="rooms"
             >
@@ -74,7 +74,7 @@ function Bedroom() {
             </h4>
             <h4
               onClick={() => {
-                navigate("/preparingpages");
+                navigate("/bathroom");
               }}
               id="rooms"
             >

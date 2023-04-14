@@ -12,6 +12,8 @@ import NeighborMap from "./Components/Neighborhood/NeighborMap";
 import "./App.css";
 import Kitchen from "./Components/Residence/Kitchen";
 import Bedroom from "./Components/Residence/Bedroom";
+import Bathroom from "./Components/Residence/Bathroom";
+import Dining from "./Components/Residence/Dining";
 function App() {
   return (
     <Router>
@@ -28,6 +30,8 @@ function App() {
         <Route path="/livingroom" element={<Living />} />
         <Route path="/kitchen" element={<Kitchen />} />
         <Route path="/bedroom" element={<Bedroom />} />
+        <Route path="/bathroom" element={<Bathroom />} />
+        <Route path="/dining" element={<Dining />} />
 
 
         <Route path="/availability" element={<Availability />} />

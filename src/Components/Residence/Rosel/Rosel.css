@@ -61,3 +61,35 @@
   background-size: cover;
   color: white;
 }
+.bathroomr {
+  background-image: url(/src/Components/Residence/photo/bathroom2.jpg);
+  height: 84vh;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+.bathrooml {
+  background-image: url(/src/Components/Residence/photo/bathroom1.jpg);
+  height: 84vh;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+.diningr {
+  background-image: url(/src/Components/Residence/photo/dining1.jpg);
+  height: 84vh;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+.diningl {
+  background-image: url(/src/Components/Residence/photo/dining2.jpg);
+  height: 84vh;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}

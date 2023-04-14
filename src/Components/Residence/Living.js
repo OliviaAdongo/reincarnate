@@ -66,7 +66,7 @@ function Living() {
             </h4>
             <h4
               onClick={() => {
-                navigate("/preparingpages");
+                navigate("/dining");
               }}
               id="rooms"
             >
@@ -75,7 +75,7 @@ function Living() {
             </h4>
             <h4
               onClick={() => {
-                navigate("/preparingpages");
+                navigate("/bathroom");
               }}
               id="rooms"
             >
@@ -87,7 +87,7 @@ function Living() {
 
 
 
-          <div className="disclaimer-section">
+          {/* <div className="disclaimer-section">
             <h4 id="disclaimer-title">DISCLAIMER</h4>
             <p id="disclaimer-body">
               These 3 & 2 bedroom apartment artistic impressions or image
@@ -95,7 +95,7 @@ function Living() {
               website are for illustrative purposes only and should not be
               relied upon as being complete or accurate
             </p>
-          </div>
+          </div> */}
           
         </div>
         <div className="flexbox-item-living2">
