@@ -38,6 +38,8 @@ function Living() {
             <h1 className="page-type"> THE RESIDENCES</h1>
           </div>
 
+
+
           <div className="sidebar-center">
             <h4
               className="activelink"
@@ -101,7 +103,7 @@ function Living() {
         <div className="flexbox-item-living2">
           <CarouselProvider
             naturalSlideWidth={100}
-            naturalSlideHeight={120}
+            naturalSlideHeight={64.1}
             totalSlides={2}
           >
             <Slider>

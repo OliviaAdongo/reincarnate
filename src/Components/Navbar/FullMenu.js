@@ -24,7 +24,7 @@ function FullMenu() {
             <h6 className="description">THE RESIDENCES</h6>
           </a>
 
-          <a href="/preparingpages">
+          <a href="/amenities">
           <button className="button-80" id="menu-opt">A LIFESTYLE CONCIEVED...</button>
 
             {/* <h1 className="menu-opt">A LIFESTYLE CONCEIVED ...</h1> */}

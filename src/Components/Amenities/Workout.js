@@ -11,10 +11,14 @@ import {
 } from "pure-react-carousel";
 import "pure-react-carousel/dist/react-carousel.es.css";
 
-import Lobby1 from "./Suns/Lobby1";
-import Loby2 from "./Suns/Loby2";
 
-function Amenities() {
+import West from "./Suns/West";
+import Tua from "./Suns/Tua";
+import Gym from "./Suns/Gym";
+
+
+
+function Workout() {
   let navigate = useNavigate();
 
   return (
@@ -38,7 +42,7 @@ function Amenities() {
 
           <div className="sidebar-center">
             <h4
-              className="activelink"
+              id="rooms"
               onClick={() => {
                 navigate("/amenities");
               }}
@@ -75,7 +79,7 @@ function Amenities() {
               onClick={() => {
                 navigate("/gym");
               }}
-              id="rooms"
+             className="activelink"
             >
               {" "}
               GYM
@@ -90,46 +94,13 @@ function Amenities() {
               COURTYARD
             </h4>
           </div>
-
-          {/* <div className="disclaimer-section">
-            <h4 id="disclaimer-title">DISCLAIMER</h4>
-            <p id="disclaimer-body">
-              These 3 & 2 bedroom apartment artistic impressions or image
-              renders contained on this website are for illustrative on this
-              website are for illustrative purposes only and should not be
-              relied upon as being complete or accurate
-            </p>
-          </div> */}
         </div>
         <div className="flexbox-item-living2">
-          <CarouselProvider
-            naturalSlideWidth={100}
-            naturalSlideHeight={64.1}
-            totalSlides={2}
-          >
-            <Slider>
-              <Slide index={0}>
-                {" "}
-                <Lobby1 />
-                {/* <LivingL /> */}
-                <ButtonNext className="fa fa-arrow-right" id="button-pulseleft">
-                  <FaAngleRight id="arrow" />
-                </ButtonNext>
-              </Slide>
-
-              <Slide index={1}>
-                <Loby2 />
-
-                <ButtonBack className="fa fa-arrow-right" id="button-pulseleft">
-                  <FaAngleLeft id="arrow" />
-                </ButtonBack>
-              </Slide>
-            </Slider>
-          </CarouselProvider>
+          <Gym/>
         </div>
       </div>
     </div>
   );
 }
 
-export default Amenities;
+export default Workout;

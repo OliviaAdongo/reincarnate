@@ -16,6 +16,12 @@ import Bathroom from "./Components/Residence/Bathroom";
 import Dining from "./Components/Residence/Dining";
 import Neighborhood from "./Components/Neighborhood/Neighborhood";
 import About from "./Components/About/About";
+import Amenities from "./Components/Amenities/Amenities";
+import Heatedpool from "./Components/Amenities/Heatedpool";
+import EastSkygarden from "./Components/Amenities/EastSkygarden";
+import WestSkygarden from "./Components/Amenities/WestSkygarden";
+import Workout from "./Components/Amenities/Workout";
+import Court from "./Components/Amenities/Court";
 function App() {
   return (
     <Router>
@@ -28,7 +34,7 @@ function App() {
         {/* RESIDENCE */}
         <Route path="/residence" element={<Residence />} />
         <Route path="/about" element={<About />} />
-
+        <Route path="/amenities" element={<Amenities />} />
 
         <Route path="/neighborhood" element={<Neighborhood />} />
 
@@ -39,6 +45,16 @@ function App() {
         <Route path="/bedroom" element={<Bedroom />} />
         <Route path="/bathroom" element={<Bathroom />} />
         <Route path="/dining" element={<Dining />} />
+
+        {/* AMENITIES */}
+        <Route path="/pool" element={<Heatedpool />} />
+        <Route path="/sunrise" element={<EastSkygarden />} />
+        <Route path="/sunset" element={<WestSkygarden />} />
+        <Route path="/gym" element={<Workout />} />
+        <Route path="/courtyard" element={<Court />} />
+
+
+
 
 
         <Route path="/availability" element={<Availability />} />

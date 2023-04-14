@@ -108,7 +108,7 @@ function Kitchen() {
 
         <CarouselProvider
             naturalSlideWidth={100}
-            naturalSlideHeight={120}
+            naturalSlideHeight={64.1}
             totalSlides={2}
           >
             <Slider>

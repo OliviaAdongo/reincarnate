@@ -34,4 +34,21 @@
     background-size: cover;
     color: white;
   }
+  .lobby1 {
+    background-image: url("http://testdeploy.thesaruni.com/lobby.jpg");
+    height: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+  }
+  .loby2 {
+    background-image: url("http://testdeploy.thesaruni.com/reception.jpg");
+    height: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+  }
+  
   

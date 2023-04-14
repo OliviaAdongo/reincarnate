@@ -6,14 +6,7 @@
   background-size: cover;
   color: white;
 }
-.amenity3 {
-  background-image: url("http://testdeploy.thesaruni.com/infinitypool.jpg");
-  height: 88vh;
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;  
-  color: white;
-} 
+
 
 .amenity2 {
   /* color: white; */
@@ -23,6 +16,15 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+.courtyardsmall {
+  /* color: white; */
+  background-image: url("http://testdeploy.thesaruni.com/coutryard.jpg");
+  height: 88vh;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 @font-face {
   font-family: "luxury";
   src: url(/din/fonts/FF\ DIN\ Pro\ Regular.otf);
@@ -47,4 +49,30 @@
   padding: 29px 27px 7px 7px;
   font-size: 20px;
   margin-left: 30px;
+}
+
+
+.pool1 {
+  background-image: url("http://testdeploy.thesaruni.com/infinitypool1.jpg");
+  height: 88vh;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;  
+  color: white;
+} 
+.pool2 {
+  /* color: white; */
+  background-image: url("http://testdeploy.thesaruni.com/infinitypool2.jpg");
+  height: 88vh;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.pool3 {
+  /* color: white; */
+  background-image: url("http://testdeploy.thesaruni.com/infinitypool3.jpg");
+  height: 88vh;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }

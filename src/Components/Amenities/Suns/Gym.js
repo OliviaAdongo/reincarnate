@@ -4,17 +4,15 @@ import './Extras.css'
 
 
 function Gym() {
-  // let navigate = useNavigate();
-
   return (
    
     
     <div className='amenity1'>
-        {/* <h2 className='gym'>
+        <h2 className='gym'>
             The Gym
-        </h2> */}
+        </h2>
         
-    </div>  
+    </div>   
    
     
   )

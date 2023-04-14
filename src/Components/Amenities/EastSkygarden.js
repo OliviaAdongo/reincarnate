@@ -10,11 +10,12 @@ import {
   ButtonNext,
 } from "pure-react-carousel";
 import "pure-react-carousel/dist/react-carousel.es.css";
+import East from "./Suns/East";
+import Jua from "./Suns/Jua";
 
-import Lobby1 from "./Suns/Lobby1";
-import Loby2 from "./Suns/Loby2";
 
-function Amenities() {
+
+function EastSkygarden() {
   let navigate = useNavigate();
 
   return (
@@ -38,7 +39,7 @@ function Amenities() {
 
           <div className="sidebar-center">
             <h4
-              className="activelink"
+              id="rooms"
               onClick={() => {
                 navigate("/amenities");
               }}
@@ -57,7 +58,7 @@ function Amenities() {
               onClick={() => {
                 navigate("/sunrise");
               }}
-              id="rooms"
+              className="activelink"
             >
               {" "}
               EAST SKY GARDEN
@@ -90,16 +91,6 @@ function Amenities() {
               COURTYARD
             </h4>
           </div>
-
-          {/* <div className="disclaimer-section">
-            <h4 id="disclaimer-title">DISCLAIMER</h4>
-            <p id="disclaimer-body">
-              These 3 & 2 bedroom apartment artistic impressions or image
-              renders contained on this website are for illustrative on this
-              website are for illustrative purposes only and should not be
-              relied upon as being complete or accurate
-            </p>
-          </div> */}
         </div>
         <div className="flexbox-item-living2">
           <CarouselProvider
@@ -110,15 +101,15 @@ function Amenities() {
             <Slider>
               <Slide index={0}>
                 {" "}
-                <Lobby1 />
-                {/* <LivingL /> */}
+                <Jua />
+                
                 <ButtonNext className="fa fa-arrow-right" id="button-pulseleft">
                   <FaAngleRight id="arrow" />
                 </ButtonNext>
               </Slide>
 
               <Slide index={1}>
-                <Loby2 />
+              <East />
 
                 <ButtonBack className="fa fa-arrow-right" id="button-pulseleft">
                   <FaAngleLeft id="arrow" />
@@ -132,4 +123,4 @@ function Amenities() {
   );
 }
 
-export default Amenities;
+export default EastSkygarden;

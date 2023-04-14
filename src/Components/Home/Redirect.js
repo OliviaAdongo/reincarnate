@@ -33,6 +33,11 @@ function Redirect() {
 
             
           </a>
+          <a href="/about" className='err'  style={{color:"grey"}}>
+            <h1 className="men-opt" style={{color:"grey", marginTop:"30px"}}>ABOUT US</h1>
+            {/* <h6 className="descripton">THE RESIDENCES</h6> */}
+            
+          </a>
           <a href="/menu" style={{color:"grey"}}>
 
             <h1 className="men-opt" style={{ marginTop:"30px"}}>MENU</h1>

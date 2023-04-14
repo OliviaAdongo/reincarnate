@@ -13,8 +13,11 @@ import "pure-react-carousel/dist/react-carousel.es.css";
 
 import Lobby1 from "./Suns/Lobby1";
 import Loby2 from "./Suns/Loby2";
+import Pool from "./Suns/Pool";
+import Pool2 from "./Suns/Pool2";
+import Pool3 from "./Suns/Pool3";
 
-function Amenities() {
+function Heatedpool() {
   let navigate = useNavigate();
 
   return (
@@ -38,7 +41,7 @@ function Amenities() {
 
           <div className="sidebar-center">
             <h4
-              className="activelink"
+              id="rooms"
               onClick={() => {
                 navigate("/amenities");
               }}
@@ -49,7 +52,7 @@ function Amenities() {
               onClick={() => {
                 navigate("/pool");
               }}
-              id="rooms"
+              className="activelink "
             >
               THE HEATED INFINITY POOL
             </h4>
@@ -90,35 +93,30 @@ function Amenities() {
               COURTYARD
             </h4>
           </div>
-
-          {/* <div className="disclaimer-section">
-            <h4 id="disclaimer-title">DISCLAIMER</h4>
-            <p id="disclaimer-body">
-              These 3 & 2 bedroom apartment artistic impressions or image
-              renders contained on this website are for illustrative on this
-              website are for illustrative purposes only and should not be
-              relied upon as being complete or accurate
-            </p>
-          </div> */}
         </div>
         <div className="flexbox-item-living2">
           <CarouselProvider
             naturalSlideWidth={100}
             naturalSlideHeight={64.1}
-            totalSlides={2}
+            totalSlides={3}
           >
             <Slider>
               <Slide index={0}>
                 {" "}
-                <Lobby1 />
-                {/* <LivingL /> */}
+                <Pool />
                 <ButtonNext className="fa fa-arrow-right" id="button-pulseleft">
                   <FaAngleRight id="arrow" />
                 </ButtonNext>
               </Slide>
-
               <Slide index={1}>
-                <Loby2 />
+                {" "}
+                <Pool2 />
+                <ButtonNext className="fa fa-arrow-right" id="button-pulseleft">
+                  <FaAngleRight id="arrow" />
+                </ButtonNext>
+              </Slide>
+              <Slide index={2}>
+                <Pool3 />
 
                 <ButtonBack className="fa fa-arrow-right" id="button-pulseleft">
                   <FaAngleLeft id="arrow" />
@@ -132,4 +130,4 @@ function Amenities() {
   );
 }
 
-export default Amenities;
+export default Heatedpool;
