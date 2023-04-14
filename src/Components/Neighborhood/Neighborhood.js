@@ -55,7 +55,7 @@ function Neighborhood() {
         </div>
         <div className="flexbox-item-neighborhood-home-2">
           <img
-            src="http://testdeploy.thesaruni.com/neighborhoodsmall.jpg"
+            src="http://testdeploy.thesaruni.com/neigbourhood.jpg"
             alt="The neighborhood"
             className="childimage homeneigh"
             loading="lazy"
