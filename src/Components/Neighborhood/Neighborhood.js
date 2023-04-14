@@ -8,7 +8,7 @@ function Neighborhood() {
   return (
     <div className="parent-div-neighborhood">
       <div>
-        <ChildNav />
+        <ChildNav /> 
       </div>
       <div className="flexbox-container-neighborhood-home">
         <div className="flexbox-item-neighborhood-home-1">
@@ -55,8 +55,8 @@ function Neighborhood() {
         </div>
         <div className="flexbox-item-neighborhood-home-2">
           <img
-            src="http://testdeploy.thesaruni.com/neigbourhood.jpg"
-            alt="residence"
+            src="http://testdeploy.thesaruni.com/neighborhoodsmall.jpg"
+            alt="The neighborhood"
             className="childimage homeneigh"
             loading="lazy"
           />
