@@ -9,6 +9,7 @@ function NeighborMap() {
         <ChildNav />
       </div>
       <div className="map-section">
+      <h1 className="maptitle">THE MAP</h1>
       <img
             src="https://testdeploy.thesaruni.com/map.jpg"
             alt="residence"

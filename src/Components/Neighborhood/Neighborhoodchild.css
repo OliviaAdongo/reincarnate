@@ -17,7 +17,7 @@
   font-size: 200%;
   height: 290px;
   margin-top: 290px;
-}
+} 
 
 .button-46 {
   align-items: center;
@@ -183,27 +183,8 @@ h1.gold-secttionnh {
   padding: 0 10px 0 10px;
 }
 .flexbox-item-neighborhood-home-2 {
-  /* background-color: peru; */
   flex-grow: 1;
-  width: 650px;
-}
-.neighborhood-heading-section {
-  color: gray;
-  height: 290px auto;
-  padding: 5px 5px 1px 10px;
-  text-align: center;
-  border-bottom: 3px solid goldenrod;
-}
-h6.page-header{
-  color: grey;
-  font-size: 12px;
-  margin-top: -45px;
-  /* text-align: center; */
-}
-h1.page-header {
-  text-align: center;
-  font-size: 30px;
-  margin-bottom: 30px;
+  width: 850px;
 }
 .left-body-heading{
   /* background-color: pink; */
@@ -215,7 +196,9 @@ h1.page-header {
   font-size: 34px;
 }
 .left-body-content{
+  box-sizing: border-box;
   /* background-color: pink; */
+  padding: 10px 10px 10px;
   height: 100%;
 }
 .first-paragraph{

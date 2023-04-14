@@ -4,6 +4,12 @@
   text-align: center;
   box-sizing: border-box;
 }
+.heading-area-neighborhood{
+  background-color: goldenrod;
+  text-align: center;
+  box-sizing: border-box;
+}
+
 .grey-logo{
   height: 190px;
   width: 190px;

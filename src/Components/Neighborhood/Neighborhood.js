@@ -1,7 +1,10 @@
+import { FaAngleRight } from "react-icons/fa";
 import ChildNav from "../Navbar/ChildNav";
 import "./Neighborhoodchild.css";
+import { useNavigate } from "react-router-dom";
 
 function Neighborhood() {
+  let navigate = useNavigate();
   return (
     <div className="parent-div-neighborhood">
       <div>
@@ -9,22 +12,18 @@ function Neighborhood() {
       </div>
       <div className="flexbox-container-neighborhood-home">
         <div className="flexbox-item-neighborhood-home-1">
-          <div className="neighborhood-heading-section">
+          <div className="heading-area-neighborhood">
             <img
-              src="http://testdeploy.thesaruni.com/logogrey.png"
-              className="residence-neigh-logo-grey"
+              src="http://www.thesaruni.com/TheSaruniImages/logogrey.png"
+              className="grey-logo"
               alt="logo"
             />
-
-            <h6 className="page-header">T H E </h6>
-            <h1 className="page-header"> N E I G H B O R H O O D</h1>
           </div>
 
-
-
-          <div className="left-body-heading">
-            <h2 className="exclude">AN EXCLUSIVE ADDRESS</h2>
+          <div className="page-title">
+            <h1 className="page-type"> THE NEIGHBORHOOD </h1>
           </div>
+
           <div className="left-body-content">
             <p className="first-paragraph">
               Coddled by nature on the edge of Nairobi River, 'The Saruni', is a
@@ -61,6 +60,17 @@ function Neighborhood() {
             className="childimage homeneigh"
             loading="lazy"
           />
+          <div className="right-arrow-responsive">
+            <button
+              className="fa fa-arrow-right"
+              id="button-animation"
+              onClick={() => {
+                navigate("/map");
+              }}
+            >
+              <FaAngleRight id="arrow" />
+            </button>
+          </div>
         </div>
       </div>
     </div>

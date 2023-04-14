@@ -14,6 +14,7 @@ import Kitchen from "./Components/Residence/Kitchen";
 import Bedroom from "./Components/Residence/Bedroom";
 import Bathroom from "./Components/Residence/Bathroom";
 import Dining from "./Components/Residence/Dining";
+import Neighborhood from "./Components/Neighborhood/Neighborhood";
 function App() {
   return (
     <Router>
@@ -25,6 +26,10 @@ function App() {
         <Route path="/carousel" element={<Cara />} />
         {/* RESIDENCE */}
         <Route path="/residence" element={<Residence />} />
+
+
+        <Route path="/neighborhood" element={<Neighborhood />} />
+
         <Route path="/map" element={<NeighborMap />} />
         {/* ROOMS */}
         <Route path="/livingroom" element={<Living />} />
