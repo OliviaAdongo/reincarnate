@@ -63,7 +63,7 @@ function WestSkygarden() {
               id="rooms"
             >
               {" "}
-              EAST SKY GARDEN
+              EASTWARD SKY GARDEN
             </h4>
             <h4
               onClick={() => {
@@ -72,7 +72,7 @@ function WestSkygarden() {
               className="activelink"
             >
               {" "}
-              WEST SKY GARDEN
+              WESTWARD SKY GARDEN
             </h4>
             <h4
               onClick={() => {

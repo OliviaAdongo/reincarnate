@@ -4,20 +4,11 @@ import './Sons.css'
 function Jua() {
   return (
     <div className='sunl'>
-     {/* <div className="center1">
-            <p className="sunner">Wake up to the sunrise on the East</p>
-          </div> */}
+     <div className="hue-left">
+        <h1 className='views'>View from Outside</h1>
+      </div>
 
-          {/* <div className="disclaimerr">
-            <h4 className="eastward">T H E </h4>
-            <h4 className="eastward">E A S T W A R D </h4>
-            <h4 className="eastward"> G A R D E N</h4>
-            <p className="east-gard">
-              is located on the 9th and 10th floor and presents amazing views of
-              the Nairobi CBD area.
-            </p>
-           
-          </div> */}
+      
    
     </div>
   )

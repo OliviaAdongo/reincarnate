@@ -64,7 +64,7 @@ function Court() {
               id="rooms"
             >
               {" "}
-              EAST SKY GARDEN
+              EASTWARD SKY GARDEN
             </h4>
             <h4
               onClick={() => {
@@ -73,7 +73,7 @@ function Court() {
              id="rooms"
             >
               {" "}
-              WEST SKY GARDEN
+              WESTWARD SKY GARDEN
             </h4>
             <h4
               onClick={() => {

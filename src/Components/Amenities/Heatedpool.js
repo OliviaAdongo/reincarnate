@@ -10,9 +10,6 @@ import {
   ButtonNext,
 } from "pure-react-carousel";
 import "pure-react-carousel/dist/react-carousel.es.css";
-
-import Lobby1 from "./Suns/Lobby1";
-import Loby2 from "./Suns/Loby2";
 import Pool from "./Suns/Pool";
 import Pool2 from "./Suns/Pool2";
 import Pool3 from "./Suns/Pool3";
@@ -63,7 +60,7 @@ function Heatedpool() {
               id="rooms"
             >
               {" "}
-              EAST SKY GARDEN
+              EASTWARD SKY GARDEN
             </h4>
             <h4
               onClick={() => {
@@ -72,7 +69,7 @@ function Heatedpool() {
               id="rooms"
             >
               {" "}
-              WEST SKY GARDEN
+              WESTWARD SKY GARDEN
             </h4>
             <h4
               onClick={() => {
@@ -98,7 +95,7 @@ function Heatedpool() {
           <CarouselProvider
             naturalSlideWidth={100}
             naturalSlideHeight={64.1}
-            totalSlides={3}
+            totalSlides={2}
           >
             <Slider>
               <Slide index={0}>
@@ -108,15 +105,15 @@ function Heatedpool() {
                   <FaAngleRight id="arrow" />
                 </ButtonNext>
               </Slide>
-              <Slide index={1}>
+              {/* <Slide index={1}>
                 {" "}
                 <Pool2 />
                 <ButtonNext className="fa fa-arrow-right" id="button-pulseleft">
                   <FaAngleRight id="arrow" />
                 </ButtonNext>
-              </Slide>
-              <Slide index={2}>
-                <Pool3 />
+              </Slide> */}
+              <Slide index={1}>
+                <Pool2 />
 
                 <ButtonBack className="fa fa-arrow-right" id="button-pulseleft">
                   <FaAngleLeft id="arrow" />

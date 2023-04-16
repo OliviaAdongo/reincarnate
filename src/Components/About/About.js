@@ -2,7 +2,7 @@ import ChildNav from "../Navbar/ChildNav";
 import "./About.css";
 
 function About() {
-  return (
+  return (  
     <div>
       <div>
         <ChildNav />{" "}

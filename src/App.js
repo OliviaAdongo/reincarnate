@@ -22,6 +22,7 @@ import EastSkygarden from "./Components/Amenities/EastSkygarden";
 import WestSkygarden from "./Components/Amenities/WestSkygarden";
 import Workout from "./Components/Amenities/Workout";
 import Court from "./Components/Amenities/Court";
+import Amenitiesall from "./Components/Amenities/Amenitiesall";
 function App() {
   return (
     <Router>
@@ -47,6 +48,7 @@ function App() {
         <Route path="/dining" element={<Dining />} />
 
         {/* AMENITIES */}
+        <Route path="/allouramenities" element={<Amenitiesall />} />
         <Route path="/pool" element={<Heatedpool />} />
         <Route path="/sunrise" element={<EastSkygarden />} />
         <Route path="/sunset" element={<WestSkygarden />} />

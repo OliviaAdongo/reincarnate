@@ -28,11 +28,11 @@ function Neighborhood() {
             <p className="first-paragraph">
               Coddled by nature on the edge of Nairobi River, 'The Saruni', is a
               tranquil refuge located on Nairobi's coveted Riverside Drive; A
-              secluded preference for embasies, diplomatic organizations and
+              secluded preference for embassies, diplomatic organizations and
               professional companies.
             </p>
             <p className="second-paragraph">
-              Riverside drove is a premium expression of privacy, prestige and
+              Riverside Drive is a premium expression of privacy, prestige and
               convenience.
             </p>
             <h5 className="bottom-heading">

@@ -12,25 +12,33 @@ function ChildNav() {
     navRef.current.classList.toggle("responsive_nav");
   };
 
-  return (  
-    <div className="child-nav"> 
+  return (
+    <div className="child-nav">
       <header className="headerr">
         <img
           className="navbary-logo"
           src="http://testdeploy.thesaruni.com/SaruniLogo.png"
           alt="logo"
           onClick={() => {
-            navigate("/"); 
+            navigate("/");
           }}
         />
         <h4 className="th">THE SARUNI</h4>
         <nav ref={navRef} className="mtoto">
           <div className="menu">
-           
-            <a href="https://www.youtube.com/embed/I8iI6Oh-OkA" target="_blank" rel="noreferrer"  className="menutext">
+            <a
+              href="https://www.youtube.com/embed/I8iI6Oh-OkA"
+              target="_blank"
+              rel="noreferrer"
+              className="menutext"
+            >
               VIRTUAL TOUR
             </a>
-            <a href="/#" className="menutext" st>
+            <a
+              href="http://testdeploy.thesaruni.com/TheSaruniBrochure.pdf"
+              className="menutext"
+              target="_blank"
+            >
               DOWNLOAD BROCHURE
             </a>
             <a href="/contact" className="menutext" st>

@@ -37,8 +37,10 @@ function Contact() {
           <div id="post">
             <p className="strand">
               <a
-                href="https://docs.google.com/document/d/1DasoHkLLXmxrDEfAhTiRxhIoHnSIjASt/edit?usp=sharing&ouid=104257712004828164472&rtpof=true&sd=true"
+                href="http://testdeploy.thesaruni.com/TermsandConditions.pdf"
+                // href="https://docs.google.com/document/d/1DasoHkLLXmxrDEfAhTiRxhIoHnSIjASt/edit?usp=sharing&ouid=104257712004828164472&rtpof=true&sd=true"
                 className="terms"
+                target="_blank"
               >
                 Terms and Conditions
               </a>

@@ -39,6 +39,8 @@
 }
 .address{
   /* background-color: pink; */
+  /* margin-top: 3px; */
+  border-top: 3px solid goldenrod;
   padding: 10px 10px 10px 5px;
 }
 .the-address { 
@@ -63,6 +65,7 @@
   padding-right: 19px;
   color: grey;
   font-size: 13px;
+  padding-bottom: 10px;
   /* margin-top: 34px; */
   /* background-color: pink; */
 }
@@ -88,7 +91,7 @@ padding-bottom: 3px;
   font-style: italic;
   color: goldenrod;
   font-size: bold;
-  font-family: 'paragone';
+  /* font-family: 'paragone'; */
 
 }
 @font-face {
