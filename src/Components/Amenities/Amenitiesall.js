@@ -1,5 +1,5 @@
 import { useNavigate } from "react-router-dom";
-
+import './Amenitieschild.css'
 import { FaAngleRight } from "react-icons/fa";
 import ChildNav from "../Navbar/ChildNav";
 
@@ -47,7 +47,7 @@ function Amenitiesall() {
             <img
               src="http://testdeploy.thesaruni.com/lobby.jpg"
               alt="residence"
-              className="roomimage"
+              className="lobbyimage"
               loading="lazy"
             />
             <div className="right-arrow-responsive">
