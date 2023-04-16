@@ -50,10 +50,6 @@
   color: white;
 }
 
-.hue {
-  /* background-color: pink; */
-  padding: 75px 0 20px 50px;
-}
 .hue-paragraph {
   font-size: 17px;
   color: black;
@@ -65,17 +61,12 @@
   font-size: 24px;
   text-decoration: underline;
 }
-/* #para{
-  margin-top: 15px;
-  color: white;
-}  */
-.hue-left{
+.hue-left {
   text-align: right;
-  /* background-color: pink; */
   color: black;
-  padding: 75px 50px 20px 50px;
+  padding: 30px 50px 20px 0;
 }
-.views{
+.views {
   color: black;
   font-size: 20px;
 }
