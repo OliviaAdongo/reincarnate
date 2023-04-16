@@ -61,18 +61,15 @@
 }
 .small-paragraph{
   padding-top: 10px;
-  /* padding-left: 35px; */
   padding-right: 19px;
   color: grey;
   font-size: 13px;
   padding-bottom: 10px;
-  /* margin-top: 34px; */
-  /* background-color: pink; */
 }
 .terms{
-  /* background-color: pink; */
-  padding-top: 50px;
-  /* margin-top: -300px; */
+
+  padding-top: 40px;
+
   color: grey;
   font-weight: bold;
 }
@@ -80,7 +77,7 @@
 #post{
 /* background-color: peru; */
 padding-left: 20px;
-padding-bottom: 3px;
+padding-bottom: 13px;
 }
 #pot{
 

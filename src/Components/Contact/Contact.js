@@ -11,11 +11,7 @@ function Contact() {
         <div class="flexbox-item-contact1">
           <div className="the-address">
             <h1 className="getintouch">Get in Touch </h1>
-            {/* <img
-              src="http://testdeploy.thesaruni.com/SaruniLogo.png"
-              className="spec"
-              alt="logo"
-            /> */}
+            
           </div>
 
           <div className="address" id="post">

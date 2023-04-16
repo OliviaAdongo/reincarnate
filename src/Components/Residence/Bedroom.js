@@ -83,7 +83,7 @@ function Bedroom() {
             </h4>
           </div>
 
-          <div className="disclaimer-section">
+          {/* <div className="disclaimer-section">
             <h4 id="disclaimer-title">DISCLAIMER</h4>
             <p id="disclaimer-body">
               These 3 & 2 bedroom apartment artistic impressions or image
@@ -91,7 +91,7 @@ function Bedroom() {
               website are for illustrative purposes only and should not be
               relied upon as being complete or accurate
             </p>
-          </div>
+          </div> */}
         </div>
         <div className="flexbox-item-living2">
           <CarouselProvider
