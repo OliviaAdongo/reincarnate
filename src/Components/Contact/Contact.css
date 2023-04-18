@@ -40,7 +40,6 @@
 .address{
   /* background-color: pink; */
   /* margin-top: 3px; */
-  border-top: 3px solid goldenrod;
   padding: 10px 10px 10px 5px;
 }
 .the-address { 
@@ -54,10 +53,15 @@
   /* color: goldenrod; */
   margin-top: 20px;
   font-size: 20px;
+  
+
 }
 .fd{
   margin-top: 5px;
   font-size: 20px;
+  padding-bottom: 10px;
+  border-bottom: 3px solid goldenrod;
+
 }
 .small-paragraph{
   padding-top: 10px;

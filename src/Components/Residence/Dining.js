@@ -111,7 +111,7 @@ function Dining() {
                   <FaAngleRight id="arrow" />
                 </ButtonNext>
               </Slide>
-
+ 
               <Slide index={1}>
                 <DiningR />
 

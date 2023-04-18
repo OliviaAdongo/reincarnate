@@ -20,7 +20,7 @@ function Amenitiesall() {
               className="saruni-logo"
               alt="logo"
             /> 
-          </div>
+          </div> 
 
 
             <div className="page-title">

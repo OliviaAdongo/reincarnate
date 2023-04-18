@@ -85,8 +85,9 @@
   background-size: cover;
   color: white;
 }
+
 .diningl {
-  background-image: url(/src/Components/Residence/photo/dining2.jpg);
+  background-image: url(http://testdeploy.thesaruni.com/residenceluxury.jpg);
   height: 84vh;
   background-position: center center;
   background-repeat: no-repeat;
