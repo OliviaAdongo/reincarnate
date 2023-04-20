@@ -94,3 +94,11 @@
   background-size: cover;
   color: white;
 }
+.balcony{
+  background-image: url(/src/Components/Residence/photo/balcony.jpg);
+  height: 84vh;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}

@@ -84,6 +84,15 @@ function Bathroom() {
               {" "}
               BATHROOM
             </h4>
+             <h4
+              onClick={() => {
+                navigate("/balcony");
+              }}
+            id="rooms"
+            >
+              {" "}
+              BALCONY
+            </h4>
           </div>
 
 
