@@ -32,6 +32,6 @@ function ResidenceHome() {
       </div>
     </div>
   );
-}
+}  
 
 export default ResidenceHome;

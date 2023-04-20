@@ -1,19 +1,8 @@
 import "./Rooms.css";
 import { useNavigate } from "react-router-dom";
 import ChildNav from "../Navbar/ChildNav";
-
-
-
-import {
-  CarouselProvider,
-  Slider,
-  Slide,
-  ButtonBack,
-  ButtonNext,
-} from "pure-react-carousel";
+import { CarouselProvider, Slider, Slide } from "pure-react-carousel";
 import "pure-react-carousel/dist/react-carousel.es.css";
-import BathroomR from "./Rosel/BathroomR";
-import BathroomL from "./Rosel/BathroomL";
 import BalconyOut from "./Rosel/BalconyOut";
 
 function Balcony() {
@@ -26,8 +15,6 @@ function Balcony() {
       </div>
       <div className="flexbox-container-living">
         <div className="flexbox-item-living1">
-
-
           <div className="heading-area">
             <img
               src="http://testdeploy.thesaruni.com/logowhite.png"
@@ -42,7 +29,7 @@ function Balcony() {
 
           <div className="sidebar-center">
             <h4
-            id="rooms"
+              id="rooms"
               onClick={() => {
                 navigate("/livingroom");
               }}
@@ -79,7 +66,7 @@ function Balcony() {
               onClick={() => {
                 navigate("/bathroom");
               }}
-            id="rooms"
+              id="rooms"
             >
               {" "}
               BATHROOM
@@ -88,18 +75,12 @@ function Balcony() {
               onClick={() => {
                 navigate("/balcony");
               }}
-            className="activelink"
+              className="activelink"
             >
               {" "}
               BALCONY
             </h4>
           </div>
-
-
-
-
-          
-          
         </div>
         <div className="flexbox-item-living2">
           <CarouselProvider
@@ -111,10 +92,7 @@ function Balcony() {
               <Slide index={0}>
                 {" "}
                 <BalconyOut />
-                
               </Slide>
-
-             
             </Slider>
           </CarouselProvider>
         </div>

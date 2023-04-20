@@ -66,7 +66,7 @@ function Cara() {
       <Carousel
         autoPlay={true}
         infiniteLoop={true}
-        interval={15500}
+        interval={1500}
         transitionTime={2000}
         animationHandler={fadeAnimationHandler}
         swipeable={false}
