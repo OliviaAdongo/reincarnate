@@ -10,7 +10,7 @@ function NeighborMap() {
       </div>
       <div className="map-section">
       <div className="upsect">
-      <h1 className="maptitle">THE MAP</h1>
+      
       </div>
       
       <img

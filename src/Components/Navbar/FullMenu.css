@@ -21,8 +21,8 @@
 
 #menu-opt {
   color: white;
-  margin-top: 45px;
-  font-size: 45px;
+  margin-top: 35px;
+  font-size: 40px;
 }
 
 a {
@@ -30,7 +30,7 @@ a {
 }
 .description {
   text-decoration: none;
-  color: black;
+  color: rgb(210, 202, 202);
   margin-top: 2px;
   font-size: 13px;
   font-weight: bold;
@@ -52,7 +52,7 @@ a {
   text-align: center;
 }
 .option1 {
-  background: rgba(0, 0, 0, 0.2); /* Black background with 0.5 opacity */
+  background: rgba(0, 0, 0, 0.3); /* Black background with 0.5 opacity */
   height: 100vh;
   padding-top: 20px;
 }

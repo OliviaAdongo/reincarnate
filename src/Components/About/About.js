@@ -48,7 +48,7 @@ function About() {
               </p>
               <p className="developer">PROJECT MANAGERS</p>
               <p className="address-developer" id="about">
-                TUNER & TOWNSEND
+                TURNER & TOWNSEND
               </p>
               <p className="address-developer">
                 {" "}
@@ -82,13 +82,14 @@ function About() {
           </div>
         </div>
 
-        <div class="flexbox-item-contact2">
+        <div class="flexbox-item-contact2" id="aboutback">
           <img
             src="http://testdeploy.thesaruni.com/home.jpg"
             alt="bag"
             className="building"
           />
         </div>
+        
       </div>
     </div>
   );
