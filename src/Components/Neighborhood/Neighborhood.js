@@ -8,13 +8,14 @@ function Neighborhood() {
   return (
     <div className="parent-div-neighborhood">
       <div>
-        <ChildNav /> 
+        <ChildNav />
       </div>
       <div className="flexbox-container-neighborhood-home">
         <div className="flexbox-item-neighborhood-home-1">
           <div className="heading-area-neighborhood">
             <img
-              src="http://www.thesaruni.com/TheSaruniImages/logogrey.png"
+              src="http://testdeploy.thesaruni.com/logowhite.png"
+              // src="http://www.thesaruni.com/TheSaruniImages/logogrey.png"
               className="grey-logo"
               alt="logo"
             />

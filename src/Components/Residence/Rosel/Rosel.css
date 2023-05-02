@@ -46,7 +46,7 @@
   color: white;
 }
 .kitchenl {
-  background-image: url("http://www.thesaruni.com/TheSaruniImages/kitchenleft.jpg");
+  background-image: url(/src/Components/Residence/photo/img/z5\ copy_small.jpg);
   height: 84vh;
   background-position: center center;
   background-repeat: no-repeat;
@@ -54,7 +54,7 @@
   color: white;
 }
 .kitchenr {
-  background-image: url("http://www.thesaruni.com/TheSaruniImages/kitchenright.jpg");
+  background-image: url(/src/Components/Residence/photo/img/z3\ copy_small.jpg);
   height: 84vh;
   background-position: center center;
   background-repeat: no-repeat;
@@ -78,7 +78,7 @@
   color: white;
 }
 .diningr {
-  background-image: url(/src/Components/Residence/photo/dining1.jpg);
+  background-image: url(/src/Components/Residence/photo/img/14.RGB_color.0000\ copy_small\ \(1\).jpg);
   height: 84vh;
   background-position: center center;
   background-repeat: no-repeat;

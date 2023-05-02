@@ -5,7 +5,9 @@ function ResidenceHome() {
     <div className="flexbox-container-resident">
       <div className="flexbox-item-resident-1">
         <div class="logo">
-          <img src="https://thesaruni.com/images/SaruniLogo.png" alt="Logo" />
+          <img 
+          src="https://thesaruni.com/images/SaruniLogo.png"
+           alt="Logo" />
         </div>
         <h4 className="reside">INSPIRATION </h4>
         <h5 className="reside-paragraph">

@@ -13,18 +13,17 @@ function Residence() {
       </div>
       <div className="section1">
         <div class="grid-resident-element">
-        {/* LEFT CONTENT SECTION */}
+          {/* LEFT CONTENT SECTION */}
           <div class="grid-child-purple">
             <div className="heading-area">
               <img
-                src="http://www.thesaruni.com/TheSaruniImages/logogrey.png"
+                src="http://testdeploy.thesaruni.com/logowhite.png"
+                // src="http://www.thesaruni.com/TheSaruniImages/logogrey.png"
                 className="grey-logo"
                 alt="logo"
               />
             </div>
 
-
-            
             <div className="page-title">
               <h1 className="page-type"> THE RESIDENCES</h1>
             </div>
@@ -59,17 +58,13 @@ function Residence() {
                 onClick={() => {
                   navigate("/livingroom");
                 }}
-            
               >
                 <FaAngleRight id="arrow" />
               </button>
-
-  
             </div>
           </div>
         </div>
       </div>
-      
     </div>
   );
 }
