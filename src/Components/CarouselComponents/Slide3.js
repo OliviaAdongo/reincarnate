@@ -1,5 +1,5 @@
 import "./Slides.css";
-import amenitieshome from "/Users/apple/work/job/apartment/src/Components/CarouselComponents/image/rover.jpg";
+import amenitieshome from "./image/rover.jpg";
 
 function Slide3() {
   return (

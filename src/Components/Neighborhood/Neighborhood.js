@@ -1,5 +1,4 @@
 import { FaAngleRight } from "react-icons/fa";
-import ChildNav from "../Navbar/ChildNav";
 import "./Neighborhoodchild.css";
 import { useNavigate } from "react-router-dom";
 

@@ -1,5 +1,5 @@
 import "./Slides.css";
-import residencehome from "/Users/apple/work/job/apartment/src/Components/CarouselComponents/image/inspiration.jpg";
+import residencehome from "./image/inspiration.jpg";
 
 function Slide2() {
   return (

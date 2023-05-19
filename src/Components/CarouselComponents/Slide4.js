@@ -1,5 +1,5 @@
 import "./Slides.css";
-import neighhome from "/Users/apple/work/job/apartment/src/Components/CarouselComponents/image/neighhome.jpg";
+import neighhome from "./image/neighhome.jpg";
 
 function Slide4() {
   return (

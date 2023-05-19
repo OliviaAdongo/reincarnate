@@ -1,5 +1,5 @@
 import "./Slides.css";
-import homelogo from "/Users/apple/work/job/apartment/src/Components/CarouselComponents/image/saruni-home-logo.png";
+import homelogo from "./image/saruni-home-logo.png";
 
 
 function Slide1() {
