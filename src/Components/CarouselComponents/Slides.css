@@ -12,8 +12,17 @@
   margin: 0 auto;
   position: relative;
 }
-.saruni-logo-section {
-  padding: 65px 0px 0px 28px;
+#saruni-logo-section {
+  height: 150px;
+  width: 220px;
+  margin: 0 auto;
+  position: relative;
+  /* background-color: pink; */
+}
+#saruni-home-logo-word{
+  height: 160px;
+  width: 240px;
+  margin-bottom: var(--mb-3);
 }
 .home-heading {
   color: var(--home-text-color);
@@ -24,16 +33,9 @@
   color: white;
   font-weight: bold;
   letter-spacing: 0.3rem;
-}
-.home-heading-2 {
-  color: var(--home-text-color);
-  font-family: var(--paragone-font);
-  font-size: var(--home-headingOne);
-  font-size: 39px;
-  padding: 1px 0px 10px 5px;
-  color: white;
-  letter-spacing: 0.3rem;
-  font-weight: bold;
+  line-height: 48px;
+  white-space: nowrap;
+
 }
 .body-section {
   margin-top: -20px;
@@ -47,11 +49,12 @@
   color: #000;
   font-size: 28px;
   margin-left: 8px;
+  white-space: nowrap;
 }
 .saruni-home-logo {
   height: 200px;
-  padding: 65px 0px 0px 28px;
-  margin-top: -78px;
+  /* padding: 65px 0px 0px 28px; */
+  /* margin-top: -78px; */
 }
 .flexbox-container {
   display: flex;
@@ -224,11 +227,30 @@
 }
 .home-description{
   color: var(--textColor2);
-  font-size:  18px;
+  font-size:  20px;
   letter-spacing: .1rem;
   margin-top: 15px;
   line-height: 30px;
+  font-weight: normal;
 }
 #home-slide{
   padding-top: 120px;
+}
+
+@media only screen and (max-width: 600px) {
+  .body-section {
+    margin-top: -20px;
+    padding: 1px 0px 10px 69px;
+  }
+  .home-heading{
+    font-size: 35px;
+    padding: 19px 0px 10px 5px;
+  }
+  .home-paragraph{
+    line-height: 34px;
+  }
+  .saruni-logo-section {
+    padding: 65px 0px 0px 0px;
+    margin-right: 40px;
+  }
 }

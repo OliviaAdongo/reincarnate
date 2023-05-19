@@ -46,7 +46,7 @@
   --mb-1-5: 1.5rem;
   --mb-2: 2rem;
   --mb-2-5: 2.5rem;
-  --mb-3: 3rem;
+  --mb-3: -2rem;
   /* BORDERS */
   /* LOGO */
   --logo-height: 120px;
@@ -134,5 +134,8 @@
     position: fixed;
     top: 90%;
     right: 40%;
+  }
+  .home-heading{
+    font-size: var(--headingFive);
   }
 }

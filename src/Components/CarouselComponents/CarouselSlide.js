@@ -19,9 +19,10 @@ function CarouselSlide() {
     <div className="carousel-div">
       <CarouselProvider
         naturalSlideWidth={100}
-        naturalSlideHeight={48}
+        naturalSlideHeight={200}
         totalSlides={4}
         infiniteLoop={true}
+        className="carousel-div"
       >
         <Slider>
           <Slide index={0}>

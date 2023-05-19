@@ -23,13 +23,13 @@ function Navbar() {
             navigate("/");
           }}
         />
-        <h4 className="th">THE SARUNI</h4>
+        <h4 className="building-name">THE SARUNI</h4>  
         <nav ref={navRef} className="mtoto">
           <div className="menu">
             <a
               href="https://www.youtube.com/embed/I8iI6Oh-OkA"
               target="_blank"
-              rel="noreferrer"
+              rel="norefferer"
               className="menutext"
             >
               VIRTUAL TOUR
@@ -38,6 +38,7 @@ function Navbar() {
               href="http://testdeploy.thesaruni.com/TheSaruniBrochure.pdf"
               className="menutext"
               target="_blank"
+              rel="norefferer"
             >
               DOWNLOAD BROCHURE
             </a>

@@ -1,4 +1,3 @@
-import ChildNav from "../Navbar/ChildNav";
 import "./Contact.css";
 
 function Contact() {
@@ -33,6 +32,7 @@ function Contact() {
             // href="https://docs.google.com/document/d/1DasoHkLLXmxrDEfAhTiRxhIoHnSIjASt/edit?usp=sharing&ouid=104257712004828164472&rtpof=true&sd=true"
             className="terms"
             target="_blank"
+            rel="norefferer"  
           >
             Terms and Conditions
           </a>
