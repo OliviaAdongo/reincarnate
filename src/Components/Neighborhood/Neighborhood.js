@@ -7,22 +7,20 @@ function Neighborhood() {
   let navigate = useNavigate();
   return (
     <div className="parent-div-neighborhood">
-      <div>
-        <ChildNav />
-      </div>
+     
       <div className="flexbox-container-neighborhood-home">
         <div className="flexbox-item-neighborhood-home-1">
-          <div className="heading-area-neighborhood">
+          <div className="heading">
             <img
               src="http://testdeploy.thesaruni.com/logowhite.png"
               // src="http://www.thesaruni.com/TheSaruniImages/logogrey.png"
-              className="grey-logo"
+              className="logo"
               alt="logo"
             />
-          </div>
+          </div> 
 
           <div className="page-title">
-            <h1 className="page-type"> THE NEIGHBORHOOD </h1>
+            <h1 className="page-topic"> THE NEIGHBORHOOD </h1>
           </div>
 
           <div className="left-body-content">
@@ -61,17 +59,15 @@ function Neighborhood() {
             className="childimage homeneigh"
             loading="lazy"
           />
-          <div className="right-arrow-responsive">
-            <button
-              className="fa fa-arrow-right"
-              id="button-animation"
-              onClick={() => {
-                navigate("/map");
-              }}
-            >
-              <FaAngleRight id="arrow" />
-            </button>
-          </div>
+           <div className="right-arrow-responsive">
+          <FaAngleRight
+          className="fa fa-arrow-right"
+            onClick={() => {
+              navigate("/map");
+            }}
+            id="arrow-right"
+          />
+        </div>
         </div>
       </div>
     </div>

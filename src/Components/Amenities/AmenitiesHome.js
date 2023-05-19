@@ -3,31 +3,31 @@ import "./Amenities.css";
 
 function AmenitiesHome() {
   // let navigate = useNavigate();
- 
-  return ( 
+
+  return (
     <div className="flexbox-container-amenity">
       <div className="flexbox-item-amenity-1">
-      <div class="logo3" >
-  <img src="https://thesaruni.com/images/SaruniLogo.png" alt="Logo"/>
-</div>
-<h4 className="reside style">A  </h4>
-        <h4 className="reside style"
-                  style={{ marginTop: "15px", marginBottom: "15px" }}
-
-        > L I F E S T Y L E </h4> 
+        <div class="logo3">
+          <img src="https://thesaruni.com/images/SaruniLogo.png" alt="Logo" />
+        </div>
+        <h4 className="reside style">A </h4>
         <h4
-          className="reside style" 
+          className="reside style"
           style={{ marginTop: "15px", marginBottom: "15px" }}
-
         >
           {" "}
-         CONCEIVED
+          L I F E S T Y L E{" "}
         </h4>
         <h4
           className="reside style"
           style={{ marginTop: "15px", marginBottom: "15px" }}
-
-      
+        >
+          {" "}
+          CONCEIVED
+        </h4>
+        <h4
+          className="reside style"
+          style={{ marginTop: "15px", marginBottom: "15px" }}
         >
           {" "}
           C U R A T E D
@@ -40,7 +40,6 @@ function AmenitiesHome() {
         <h5
           className="reside-paragraph disc"
           style={{ marginTop: "15px", marginBottom: "15px" }}
-          
         >
           {" "}
           connoisseur
@@ -56,14 +55,14 @@ function AmenitiesHome() {
         </button>  */}
       </div>
       <div className="flexbox-item-amenity-2">
-      <img
-        src="http://testdeploy.thesaruni.com/kai.jpg"
+        <img
+          src="http://testdeploy.thesaruni.com/kai.jpg"
           alt="residence"
           className="amenity-profile"
           loading="lazy"
         />
       </div>
-    </div> 
+    </div>
   );
 }
 

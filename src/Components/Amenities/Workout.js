@@ -1,43 +1,24 @@
 import "./Amenitieschild.css";
 import { useNavigate } from "react-router-dom";
-import ChildNav from "../Navbar/ChildNav";
-import { FaAngleLeft, FaAngleRight } from "react-icons/fa";
-import {
-  CarouselProvider,
-  Slider,
-  Slide,
-  ButtonBack,
-  ButtonNext,
-} from "pure-react-carousel";
-import "pure-react-carousel/dist/react-carousel.es.css";
-
-
-import West from "./Suns/West";
-import Tua from "./Suns/Tua";
 import Gym from "./Suns/Gym";
-
-
 
 function Workout() {
   let navigate = useNavigate();
 
   return (
     <div className="kubwa-resident">
-      <div>
-        <ChildNav />{" "}
-      </div>
       <div className="flexbox-container-living">
         <div className="flexbox-item-living1">
           <div className="amenities-logo">
             <img
               src="http://testdeploy.thesaruni.com/SaruniLogo.png"
-              className="spec"
+              className="saruni-logo"
               alt="logo"
             />
           </div>
 
           <div className="page-title">
-            <h1 className="page-type"> THE AMENITIES</h1>
+            <h1 className="page-topic"> THE AMENITIES</h1>
           </div>
 
           <div className="sidebar-center">
@@ -79,7 +60,7 @@ function Workout() {
               onClick={() => {
                 navigate("/gym");
               }}
-             className="activelink"
+              className="activelink"
             >
               {" "}
               GYM
@@ -96,7 +77,7 @@ function Workout() {
           </div>
         </div>
         <div className="flexbox-item-living2">
-          <Gym/>
+          <Gym />
         </div>
       </div>
     </div>

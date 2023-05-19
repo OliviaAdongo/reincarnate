@@ -1,13 +1,10 @@
 import { FaAngleDown } from "react-icons/fa";
-import ChildNav from "../Navbar/ChildNav";
+
 import "./NeighMap.css";
 
 function NeighborMap() {
   return (
     <div className="parent-div">
-      <div className="nav-section">
-        <ChildNav />
-      </div>
       <div className="map-section">
       <div className="upsect">
       
@@ -22,7 +19,7 @@ function NeighborMap() {
       </div>
       
     </div>
-    
+     
   );
 }
 

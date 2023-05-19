@@ -1,59 +1,138 @@
-/* GENERAL CSS */
-.heading-area{
-  background-color: goldenrod;
-  text-align: center;
+@font-face {
+  font-family: "din";
+  src: url(/din/fonts/FF\ DIN\ Pro\ Regular.otf);
+}
+@font-face {
+  font-family: "paragone";
+  src: url(/paragone-luxury-serif-font/Paragone/Paragone.otf);
+}
+:root {
+  /* FONT FAMILY */
+  --paragone-font: "paragone";
+
+  /* FONT SIZE */
+  --home-headingOne: 39px;
+  --headingOne: 20px;
+  --headingFour: 26px;
+  --headingFive: 23px;
+  --headingSix: 20px;
+  --home-pages-paragraph: 23px;
+  --activelinkFontsize: 18px;
+  --non-activelinkFontsize: 18px;
+  --number-font: 290%;
+
+  /* COLORS */
+
+  --home-text-color: white;
+  --textColor: grey;
+  --text-color: #000;
+  --textColor2: #7b7471;
+  --gold-color: goldenrod;
+  --heading-box-area2: rgb(62, 61, 61);
+
+  /* TOP MARGINS */
+  --mt-0-25: 0.25rem;
+  --mt-0-5: 0.5rem;
+  --mt-1: 1rem;
+  --mt-1-5: 1.5rem;
+  --mt-2: 2rem;
+  --mt-2-5: 2.5rem;
+  --mt-3: 3rem;
+
+  /* BOTTOM MARGINS */
+  --mb-0-25: 0.25rem;
+  --mb-0-5: 0.5rem;
+  --mb-1: 1rem;
+  --mb-1-5: 1.5rem;
+  --mb-2: 2rem;
+  --mb-2-5: 2.5rem;
+  --mb-3: 3rem;
+  /* BORDERS */
+  /* LOGO */
+  --logo-height: 120px;
+  --logo-width: 120px;
+}
+* {
+  margin: 0;
   box-sizing: border-box;
-  max-height: 120px;
+  font-family: "din", sans-serif;
 }
-
-.heading-area-neighborhood{
-  background-color: goldenrod;
-  text-align: center;
+.heading {
+  background-color: var(--gold-color);
   box-sizing: border-box;
-  max-height: 120px;
-}
-
-.grey-logo{
-  height: 140px;
-  /* width: 160px; */
-}
-
-.amenities-logo{
+  color: var(--textColor2);
+  font-size: var(--headingOne);
+  padding: 10px;
   text-align: center;
-  background: rgb(62, 61, 61);
-  padding-top: 20px;
-  padding-bottom: 20px;
-  /* height: 120px; */ 
 }
-.saruni-logo {
-  height: 90px;
-}
-
-.page-title{
-  padding-top: 20px;
-  border-bottom: 3px solid goldenrod;
-  text-align: center;
-  padding-top: 20px;
-  padding-bottom: 20px;
+.page-title {
+  border-bottom: 3px solid var(--gold-color);
+  padding: 10px 10px 10px 10px;
   box-sizing: border-box;
 }
-.middle-body{
- margin-top: 30px;
- padding-left: 20px;
- padding-bottom: 20px;
+.page-topic {
+  color: var(--textColor2);
 }
-.care {
-  color: grey;
-  font-size: 28px;
-  margin-top: 10px;
+.page-summary {
+  text-align: left;
+  line-height: 40px;
+  margin-top: var(--mt-1);
+  padding: 10px 10px 10px 10px;
 }
-h1.page-type{
-  color: grey;
-  font-size: 30px;
+.page-summary {
+  color: var(--textColor2);
 }
-@media only screen and (min-width: 768px) {
+.paragraph-summary {
+  text-align: left;
+  padding: 10px 10px 10px 10px;
+  color: var(--textColor2);
+  font-size: var(--non-activelinkFontsize);
+  box-sizing: border-box;
+}
 
-  .middle-body{
-    padding-bottom: 20px;
+#arrow-right {
+  background: transparent;
+  position: fixed;
+  top: 90%;
+  right: 33%;
+  border: 2px solid var(--home-text-color);
+  border-radius: 30px;
+  height: 49px;
+  width: 49px;
+  color: var(--home-text-color);
+}
+.fa-arrow-right {
+  -webkit-animation: bounceRight 2s infinite;
+  animation: bounceRight 2s infinite;
+}
+
+#single-carousel-button {
+  position: fixed;
+  background-color: transparent;
+  border: 2px solid var(--home-text-color);
+  color: var(--home-text-color);
+  border-radius: 30px;
+  top: 530px;
+  left: 23%;
+  height: 49px;
+  width: 49px;
+}
+#single-right-carousel-button {
+  position: fixed;
+  background-color: transparent;
+  border: 2px solid var(--home-text-color);
+  color: var(--home-text-color);
+  border-radius: 30px;
+  top: 530px;
+  right: 23%;
+  height: 49px;
+  width: 49px;
+}
+
+@media only screen and (max-width: 600px) {
+  #arrow-right {
+    position: fixed;
+    top: 90%;
+    right: 40%;
   }
 }

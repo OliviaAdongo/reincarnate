@@ -1,6 +1,6 @@
 import "./Rooms.css";
 import { useNavigate } from "react-router-dom";
-import ChildNav from "../Navbar/ChildNav";
+
 import { CarouselProvider, Slider, Slide } from "pure-react-carousel";
 import "pure-react-carousel/dist/react-carousel.es.css";
 import BalconyOut from "./Rosel/BalconyOut";
@@ -10,21 +10,19 @@ function Balcony() {
 
   return (
     <div className="kubwa-resident">
-      <div>
-        <ChildNav />{" "}
-      </div>
+     
       <div className="flexbox-container-living">
         <div className="flexbox-item-living1">
-          <div className="heading-area">
+          <div className="heading">
             <img
               src="http://testdeploy.thesaruni.com/logowhite.png"
-              className="grey-logo"
+              className="logo"
               alt="logo"
             />
-          </div>
+          </div>  
 
           <div className="page-title">
-            <h1 className="page-type"> THE RESIDENCES</h1>
+            <h1 className="page-topic">THE RESIDENCE</h1>
           </div>
 
           <div className="sidebar-center">

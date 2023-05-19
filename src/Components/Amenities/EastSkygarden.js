@@ -1,6 +1,5 @@
 import "./Amenitieschild.css";
 import { useNavigate } from "react-router-dom";
-import ChildNav from "../Navbar/ChildNav";
 import { FaAngleLeft, FaAngleRight } from "react-icons/fa";
 import {
   CarouselProvider,
@@ -15,26 +14,23 @@ import Jua from "./Suns/Jua";
 
 
 
-function EastSkygarden() {
+function EastSkygarden() { 
   let navigate = useNavigate();
 
   return (
     <div className="kubwa-resident">
-      <div>
-        <ChildNav />{" "}
-      </div>
       <div className="flexbox-container-living">
         <div className="flexbox-item-living1">
           <div className="amenities-logo">
             <img
               src="http://testdeploy.thesaruni.com/SaruniLogo.png"
-              className="spec"
+              className="saruni-logo"
               alt="logo"
             />
           </div>
 
           <div className="page-title">
-            <h1 className="page-type"> THE AMENITIES</h1>
+            <h1 className="page-topic"> THE AMENITIES</h1>
           </div>
 
           <div className="sidebar-center">
@@ -104,16 +100,19 @@ function EastSkygarden() {
               
                 <East />
                 
-                <ButtonNext className="fa fa-arrow-right" id="button-pulseleft">
-                  <FaAngleRight id="arrow" />
+                <ButtonNext id="single-carousel-button" className="right-arrow">
+                  <FaAngleRight />
                 </ButtonNext>
               </Slide>
 
               <Slide index={1}>
               <Jua />
 
-                <ButtonBack className="fa fa-arrow-right" id="button-pulseleft">
-                  <FaAngleLeft id="arrow" />
+              <ButtonBack
+                  id="single-right-carousel-button"
+                  className="right-arrow"
+                >
+                  <FaAngleLeft />
                 </ButtonBack>
               </Slide>
             </Slider>

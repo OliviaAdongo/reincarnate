@@ -3,16 +3,12 @@ import "./Availability.css";
 
 function Availability() {
   return (
-    <div>
-      <div>
-        <ChildNav />
-      </div>
-      <div class="flexbox-container-availability">
+    <div class="flexbox-container-availability">
         <div className="flexbox-item-availability1">
           <div className="lux-heading">
             <h1 className="topic-lux">LUXURY UNITS</h1>
             
-          </div>
+          </div> 
           {/* BODY SECTION */}
           <div className="sect-body">
 
@@ -139,12 +135,7 @@ function Availability() {
 
 
           </div>
-          {/* <div className="lux-bottom">
-            <h1 className="reserver">
-              CALL: +254 759 278 564 or +254 745 466 346 to make your
-              reservation
-            </h1>
-          </div> */}
+         
 
         </div>
 
@@ -156,7 +147,6 @@ function Availability() {
           />
         </div>
       </div>
-    </div>
   );
 }
 

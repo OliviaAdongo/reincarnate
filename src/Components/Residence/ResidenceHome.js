@@ -1,4 +1,4 @@
-import "./Resident.css";
+import "./Resident.css"; 
 
 function ResidenceHome() {
   return (
@@ -14,7 +14,7 @@ function ResidenceHome() {
           THE SARUNI, is a unique
         </h5>
         <h5 className="reside-paragraph">
-          contemporary
+           contemporary
         </h5>
         <h5 className="reside-paragraph">development that is the </h5>
         <h5 className="reside-paragraph">

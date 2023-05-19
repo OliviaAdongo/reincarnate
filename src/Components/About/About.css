@@ -1,5 +1,5 @@
 .about {
-    box-sizing: border-box;
+  box-sizing: border-box;
   /* height: 94vh; */
   /* background: rgb(62, 61, 61); */
   padding: 25px 5px 25px 15px;
@@ -9,7 +9,7 @@
   height: 120px;
 }
 .ablogo {
-    margin-top: -16px;
+  margin-top: -16px;
   text-align: center;
   background: rgb(62, 61, 61);
 }
@@ -20,7 +20,7 @@
 }
 #about {
   color: grey;
- font-size: 14px;
+  font-size: 14px;
 }
 #contributer {
   padding-left: 20px;

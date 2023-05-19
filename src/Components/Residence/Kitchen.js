@@ -1,8 +1,5 @@
 import "./Rooms.css";
 import { useNavigate } from "react-router-dom";
-import ChildNav from "../Navbar/ChildNav";
-// import { FaAngleUp } from "react-icons/fa";
-import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import KitchenL from "./Rosel/KitchenL";
 import { FaAngleLeft, FaAngleRight } from "react-icons/fa";
@@ -21,28 +18,19 @@ function Kitchen() {
   let navigate = useNavigate();
   return (
     <div className="kubwa-resident">
-      <div>
-        <ChildNav />{" "}
-      </div>
       <div className="flexbox-container-living">
         <div className="flexbox-item-living1">
-          <div className="heading-area">
+          <div className="heading">
             <img
               src="http://testdeploy.thesaruni.com/logowhite.png"
-              className="grey-logo"
+              className="logo"
               alt="logo"
             />
           </div>
 
           <div className="page-title">
-            <h1 className="page-type"> THE RESIDENCES</h1>
+            <h1 className="page-topic">THE RESIDENCE</h1>
           </div>
-
-          
-
-
-
-
 
           <div className="sidebar-center">
             <h4
@@ -92,53 +80,40 @@ function Kitchen() {
               onClick={() => {
                 navigate("/balcony");
               }}
-            id="rooms"
+              id="rooms"
             >
               {" "}
               BALCONY
             </h4>
           </div>
-
-         
-
-          {/* <div className="disclaimer-section">
-            <h4 id="disclaimer-title">DISCLAIMER</h4>
-            <p id="disclaimer-body">
-              These 3 & 2 bedroom apartment artistic impressions or image
-              renders contained on this website are for illustrative on this
-              website are for illustrative purposes only and should not be
-              relied upon as being complete or accurate
-            </p>
-          </div> */}
-
-
         </div>
         <div className="flexbox-item-living2">
-
-        <CarouselProvider
+          <CarouselProvider
             naturalSlideWidth={100}
-            naturalSlideHeight={64.1}
+            naturalSlideHeight={200}
             totalSlides={2}
           >
             <Slider>
               <Slide index={0}>
                 {" "}
                 <KitchenL />
-                <ButtonNext className="fa fa-arrow-right" id="button-pulseleft">
-                  <FaAngleRight id="arrow" />
+                <ButtonNext id="single-carousel-button" className="right-arrow">
+                  <FaAngleRight />
                 </ButtonNext>
               </Slide>
 
               <Slide index={1}>
                 <KitchenR />
 
-                <ButtonBack className="fa fa-arrow-right" id="button-pulseleft">
-                  <FaAngleLeft id="arrow" />
+                <ButtonBack
+                  id="single-right-carousel-button"
+                  className="right-arrow"
+                >
+                  <FaAngleLeft />
                 </ButtonBack>
               </Slide>
             </Slider>
           </CarouselProvider>
-
         </div>
       </div>
     </div>

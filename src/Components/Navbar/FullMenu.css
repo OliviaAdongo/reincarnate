@@ -1,24 +1,3 @@
-/* .container {
-  position: relative;
-  max-width: 100%; 
-  margin: 0 auto; 
-  height: 100vh;
-}
-
- .content {
-  position: absolute;
-  bottom: 0; 
-  background: rgb(0, 0, 0);
-  background: rgba(0, 0, 0, 0.8); 
-  Black background with 0.5 opacity
-  color: white; 
-  width: 100%; 
-  height: 100%;
-  padding: 21px;
-  text-align: center;
-  
-} */
-
 #menu-opt {
   color: white;
   margin-top: 35px;
@@ -77,7 +56,6 @@ a {
   }
 }
 .bottom-menu {
-  /* background-color: pink; */
   margin-top: 20px;
   display: flex;
   text-align: center;

@@ -1,7 +1,5 @@
 import "./Rooms.css";
 import { useNavigate } from "react-router-dom";
-import ChildNav from "../Navbar/ChildNav";
-import { Carousel } from "react-responsive-carousel";
 import LivingL from "./Rosel/LivingL";
 import LivingR from "./Rosel/LivingR";
 import { FaAngleLeft, FaAngleRight } from "react-icons/fa";
@@ -19,27 +17,19 @@ function Living() {
 
   return (
     <div className="kubwa-resident">
-      <div>
-        <ChildNav />{" "}
-      </div>
       <div className="flexbox-container-living">
         <div className="flexbox-item-living1">
-
-
-          <div className="heading-area">
+          <div className="heading">
             <img
               src="http://testdeploy.thesaruni.com/logowhite.png"
-              className="grey-logo"
+              className="logo"
               alt="logo"
             />
           </div>
 
           <div className="page-title">
-            <h1 className="page-type"> THE RESIDENCES</h1>
-          </div>
-
-
-
+          <h1 className="page-topic">THE RESIDENCE</h1>
+        </div>
           <div className="sidebar-center">
             <h4
               className="activelink"
@@ -88,82 +78,36 @@ function Living() {
               onClick={() => {
                 navigate("/balcony");
               }}
-            id="rooms"
+              id="rooms"
             >
               {" "}
               BALCONY
             </h4>
           </div>
-
-
-
-
-          {/* <div className="disclaimer-section">
-            <h4 id="disclaimer-title">DISCLAIMER</h4>
-            <p id="disclaimer-body">
-              These 3 & 2 bedroom apartment artistic impressions or image
-              renders contained on this website are for illustrative on this
-              website are for illustrative purposes only and should not be
-              relied upon as being complete or accurate
-            </p>
-          </div> */}
-          
         </div>
         <div className="flexbox-item-living2">
           <CarouselProvider
             naturalSlideWidth={100}
-            naturalSlideHeight={64.1}
+            naturalSlideHeight={200}
             totalSlides={2}
           >
             <Slider>
               <Slide index={0}>
                 {" "}
                 <LivingL />
-                <ButtonNext className="fa fa-arrow-right" id="button-pulseleft">
-                  <FaAngleRight id="arrow" />
+                <ButtonNext   id="single-carousel-button" className="right-arrow" >
+                  <FaAngleRight />
                 </ButtonNext>
               </Slide>
 
               <Slide index={1}>
                 <LivingR />
-
-                <ButtonBack className="fa fa-arrow-right" id="button-pulseleft">
-                  <FaAngleLeft id="arrow" />
+                <ButtonBack id="single-right-carousel-button"  className="right-arrow" >
+                  <FaAngleLeft  />
                 </ButtonBack>
               </Slide>
             </Slider>
           </CarouselProvider>
-
-          {/* <Carousel infiniteLoop>
-            <div>
-              <LivingL />
-              <div>
-                <button
-                  className="fa fa-arrow-right"
-                  id="button-animation"
-                  onClick={() => {
-                    navigate("/livingroom");
-                  }}
-                >
-                  <FaAngleRight id="arrow" />
-                </button>
-              </div>
-            </div>
-            <div>
-              <LivingR />
-              <div>
-                <button
-                  className="fa fa-arrow-right"
-                  id="button-animation"
-                  onClick={() => {
-                    navigate("/livingroom");
-                  }}
-                >
-                  <FaAngleRight id="arrow" />
-                </button>
-              </div>
-            </div>
-          </Carousel> */}
         </div>
       </div>
     </div>

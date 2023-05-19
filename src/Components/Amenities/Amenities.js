@@ -1,6 +1,6 @@
 import "./Amenitieschild.css";
 import { useNavigate } from "react-router-dom";
-import ChildNav from "../Navbar/ChildNav";
+
 import { FaAngleLeft, FaAngleRight } from "react-icons/fa";
 import {
   CarouselProvider,
@@ -19,9 +19,7 @@ function Amenities() {
 
   return (
     <div className="kubwa-resident">
-      <div>
-        <ChildNav />{" "}
-      </div>
+     
       <div className="flexbox-container-living">
         <div className="flexbox-item-living1">
           <div className="amenities-logo">
@@ -33,7 +31,7 @@ function Amenities() {
           </div>
 
           <div className="page-title">
-            <h1 className="page-type"> THE AMENITIES</h1>
+            <h1 className="page-topic"> THE AMENITIES</h1>
           </div>
 
           <div className="sidebar-center">
@@ -42,7 +40,7 @@ function Amenities() {
               onClick={() => {
                 navigate("/amenities");
               }}
-            >
+            > 
               LOBBY
             </h4>
             <h4
@@ -91,15 +89,7 @@ function Amenities() {
             </h4>
           </div>
 
-          {/* <div className="disclaimer-section">
-            <h4 id="disclaimer-title">DISCLAIMER</h4>
-            <p id="disclaimer-body">
-              These 3 & 2 bedroom apartment artistic impressions or image
-              renders contained on this website are for illustrative on this
-              website are for illustrative purposes only and should not be
-              relied upon as being complete or accurate
-            </p>
-          </div> */}
+          
         </div>
         <div className="flexbox-item-living2">
           <CarouselProvider
@@ -112,16 +102,19 @@ function Amenities() {
                 {" "}
                 <Lobby1 />
                 {/* <LivingL /> */}
-                <ButtonNext className="fa fa-arrow-right" id="button-pulseleft">
-                  <FaAngleRight id="arrow" />
+                <ButtonNext id="single-carousel-button" className="right-arrow">
+                  <FaAngleRight />
                 </ButtonNext>
               </Slide>
 
               <Slide index={1}>
                 <Loby2 />
 
-                <ButtonBack className="fa fa-arrow-right" id="button-pulseleft">
-                  <FaAngleLeft id="arrow" />
+                <ButtonBack
+                  id="single-right-carousel-button"
+                  className="right-arrow"
+                >
+                  <FaAngleLeft />
                 </ButtonBack>
               </Slide>
             </Slider>
