@@ -20,10 +20,7 @@ a {
 }
 
 .full-menu {
-  /* color: white; */
   background-image: url("http://testdeploy.thesaruni.com/courtyardsmall.jpg");
-
-  /* background-image: url("http://testdeploy.thesaruni.com/coutryard.jpg"); */
   height: 100%;
   background-position: center center;
   background-repeat: no-repeat;

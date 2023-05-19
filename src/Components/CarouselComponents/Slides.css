@@ -245,9 +245,11 @@
   .home-heading{
     font-size: 35px;
     padding: 19px 0px 10px 5px;
+    white-space: normal;
   }
   .home-paragraph{
     line-height: 34px;
+    white-space: normal;
   }
   .saruni-logo-section {
     padding: 65px 0px 0px 0px;

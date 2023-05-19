@@ -13,7 +13,7 @@ function Slide1() {
             // src="https://thesaruni.com/images/SaruniLogo.png"
             alt="Logo"
             id="saruni-home-logo-word"
-          />
+          /> 
          
            <h1 className="home-heading">RESIDE IN A LUXURIOUS <br/> SANCTUARY</h1>
          <p className="home-paragraph">Nestled in unparalleled tranquility</p>
