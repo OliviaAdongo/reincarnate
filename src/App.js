@@ -20,6 +20,7 @@ import WestSkygarden from "./Components/Amenities/WestSkygarden";
 import Workout from "./Components/Amenities/Workout";
 import Court from "./Components/Amenities/Court";
 import Neighborhood from "./Components/Neighborhood/Neighborhood";
+import About from "./Components/About/About";
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
         <Route path="menu" element={<FullMenu />} />
         <Route path="availability" element={<Availability />} />
         <Route path="contact" element={<Contact />} />
+        <Route path="about" element={<About/>} />
         <Route path="map" element={<NeighborMap />} />
         {/* RESIDENCES */}
         <Route path="residence" element={<Residence />} />

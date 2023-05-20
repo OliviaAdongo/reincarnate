@@ -4,9 +4,7 @@ import "./About.css";
 function About() {
   return (  
     <div>
-      <div>
-        <ChildNav />{" "}
-      </div>
+     
       <div class="flexbox-container-contact">
         <div class="flexbox-item-contact1">
           <div className="about">
