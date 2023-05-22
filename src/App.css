@@ -62,8 +62,9 @@
   box-sizing: border-box;
   color: var(--textColor2);
   font-size: var(--headingOne);
-  padding: 10px;
+  /* padding: 10px; */
   text-align: center;
+  height: 200px;
 }
 .page-title {
   border-bottom: 3px solid var(--gold-color);

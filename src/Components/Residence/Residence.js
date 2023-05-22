@@ -18,7 +18,7 @@ function Residence() {
         </div>
         <div className="second-description">
           <h1 className="page-summary">
-            CAREFULLY <br />
+            CAREFULLY <br /> 
             CONSIDERED & <br />
             METICULOUSLY <br />
             DESIGNED
