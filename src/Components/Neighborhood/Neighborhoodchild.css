@@ -211,7 +211,7 @@ h1.gold-secttionnh {
 .second-paragraph{
   color: grey;
   font-size: 17px;
-  padding: 10px 10px 10px 10px;
+  padding: 5px 10px 10px 10px;
   letter-spacing: 0.03rem;
   line-height: 19px;
 }
@@ -224,6 +224,7 @@ h1.gold-secttionnh {
 .place{
   color: grey;
   letter-spacing: 0.03rem;
+  line-height: 18px;
 }
 .jkia{
   color: grey;
