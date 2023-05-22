@@ -3,8 +3,7 @@ import "./FullMenu.css";
 
 function FullMenu() {
   return (
-    <div className="fuller-menu">
-      <div className="full-menu">
+    <div className="full-menu">
         <div className="option1">
           <a href="/availability">
             <button className="button-80" id="menu-opt">
@@ -19,7 +18,7 @@ function FullMenu() {
               METICULOUSLY DESIGNED
             </button>
             <h6 className="description">THE RESIDENCES</h6>
-          </a>
+          </a> 
 
           <a href="/amenities">
             <button className="button-80" id="menu-opt">
@@ -53,7 +52,6 @@ function FullMenu() {
           </div>
         </div>
       </div>
-    </div>
   );
 }
 

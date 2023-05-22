@@ -37,12 +37,7 @@ a {
 }
 @media screen and (max-width: 600px) {
   .full-menu {
-    background-image: url("http://testdeploy.thesaruni.com/coutryard.jpg");
-    height: 100vh;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    text-align: center;
+   background-color: pink;
   }
   .option1 {
     text-align: center;
