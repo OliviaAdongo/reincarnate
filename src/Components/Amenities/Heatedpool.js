@@ -92,7 +92,7 @@ function Heatedpool() {
         <div className="flexbox-item-living2">
           <CarouselProvider
             naturalSlideWidth={100}
-            naturalSlideHeight={200}
+            naturalSlideHeight={190}
             totalSlides={2}
           >
             <Slider>

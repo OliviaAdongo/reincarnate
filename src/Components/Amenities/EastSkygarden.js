@@ -91,7 +91,7 @@ function EastSkygarden() {
         <div className="flexbox-item-living2">
           <CarouselProvider
             naturalSlideWidth={100}
-            naturalSlideHeight={64.1}
+            naturalSlideHeight={190}
             totalSlides={2}
           >
             <Slider>
