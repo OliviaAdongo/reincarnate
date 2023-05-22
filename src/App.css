@@ -72,22 +72,25 @@
 }
 .page-topic {
   color: var(--textColor2);
+  /* letter-spacing: 0.3rem; */
 }
 .page-summary {
   text-align: left;
-  line-height: 40px;
+  line-height: 45px;
   margin-top: var(--mt-1);
   padding: 10px 10px 10px 10px;
-}
-.page-summary {
   color: var(--textColor2);
+  letter-spacing: 0.2rem;
+  font-size: 28px;
 }
+
 .paragraph-summary {
   text-align: left;
   padding: 10px 10px 10px 10px;
   color: var(--textColor2);
   font-size: var(--non-activelinkFontsize);
   box-sizing: border-box;
+  line-height: 28px;
 }
 
 #arrow-right {

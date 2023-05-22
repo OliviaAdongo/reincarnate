@@ -19,7 +19,6 @@ function Amenities() {
 
   return (
     <div className="kubwa-resident">
-     
       <div className="flexbox-container-living">
         <div className="flexbox-item-living1">
           <div className="amenities-logo">
@@ -27,7 +26,7 @@ function Amenities() {
               src="http://testdeploy.thesaruni.com/SaruniLogo.png"
               className="saruni-logo"
               alt="logo"
-            /> 
+            />
           </div>
 
           <div className="page-title">
@@ -40,7 +39,7 @@ function Amenities() {
               onClick={() => {
                 navigate("/amenities");
               }}
-            > 
+            >
               LOBBY
             </h4>
             <h4
@@ -88,8 +87,6 @@ function Amenities() {
               COURTYARD
             </h4>
           </div>
-
-          
         </div>
         <div className="flexbox-item-living2">
           <CarouselProvider
@@ -101,7 +98,6 @@ function Amenities() {
               <Slide index={0}>
                 {" "}
                 <Lobby1 />
-                {/* <LivingL /> */}
                 <ButtonNext id="single-carousel-button" className="right-arrow">
                   <FaAngleRight />
                 </ButtonNext>

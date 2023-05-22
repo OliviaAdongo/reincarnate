@@ -1,5 +1,6 @@
 .saruni-menu {
-  background-image: url("http://testdeploy.thesaruni.com/courtyardsmall.jpg");
+  /* background-image: url("http://testdeploy.thesaruni.com/courtyardsmall.jpg"); */
+  background-image: url(/src/Components/CarouselComponents/image/saruni-home-logo.png);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
