@@ -205,20 +205,28 @@ h1.gold-secttionnh {
   color: grey;
   font-size: 17px;
   padding: 10px 10px 10px 10px;
+  letter-spacing: 0.03rem;
+  line-height: 19px;
 }
 .second-paragraph{
   color: grey;
   font-size: 17px;
   padding: 10px 10px 10px 10px;
+  letter-spacing: 0.03rem;
+  line-height: 19px;
 }
 .bottom-heading{
   font-size: 18px;
   color: grey;
   padding: 10px 10px 10px 10px;
+  letter-spacing: 0.015rem;
 }
 .place{
   color: grey;
+  letter-spacing: 0.03rem;
 }
 .jkia{
   color: grey;
+  letter-spacing: 0.03rem;
+  line-height: 19px;
 }

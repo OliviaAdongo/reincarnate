@@ -45,10 +45,8 @@ function Neighborhood() {
               <li className="place">Nairobi CBD</li>
             </ul>
             <h5 className="bottom-heading">BYPASS CONECTIVITY</h5>
-            <p className="jkia">20 min from JKIA via the Expressway</p>
-            <p className="jkia">
-              Easy access to Ngong' Road, Kileleshwa, Kilimani and Loresho.
-            </p>
+            <p className="jkia">20 min from JKIA via the Expressway <br/> Easy access to Ngong' Road, Kileleshwa, Kilimani and Loresho.</p>
+           
           </div>
         </div>
         <div className="flexbox-item-neighborhood-home-2">
