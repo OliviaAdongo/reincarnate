@@ -64,7 +64,7 @@
   font-size: var(--headingOne);
   /* padding: 10px; */
   text-align: center;
-  height: 200px;
+  height: 150px;
 }
 .page-title {
   border-bottom: 3px solid var(--gold-color);
