@@ -1,4 +1,3 @@
-import ChildNav from "../Navbar/ChildNav";
 import "./About.css";
 
 function About() {

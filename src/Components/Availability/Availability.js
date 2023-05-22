@@ -1,4 +1,3 @@
-import ChildNav from "../Navbar/ChildNav";
 import "./Availability.css";
 
 function Availability() {

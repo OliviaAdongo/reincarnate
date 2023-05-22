@@ -1,11 +1,8 @@
-
-import "./FullMenu.css";
-
+import './FullMenu.css'
 function FullMenu() {
   return (
-    <div className="full-menu">
-        <div className="option1">
-          <a href="/availability">
+    <div className="saruni-menu">
+<a href="/availability">
             <button className="button-80" id="menu-opt">
               AVAILABILITY
             </button>
@@ -49,9 +46,8 @@ function FullMenu() {
             <a href="/about">
               <h6 className="bottom-opt">ABOUT US </h6>
             </a>
-          </div>
-        </div>
-      </div>
+            </div>
+    </div>
   );
 }
 
