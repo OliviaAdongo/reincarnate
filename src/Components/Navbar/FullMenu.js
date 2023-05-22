@@ -3,41 +3,41 @@ function FullMenu() {
   return (
     <div className="saruni-menu">
       <a href="/availability">
-        <button className="button-80" id="menu-opt">
+        <button className="button-80" id="list-menu">
           AVAILABILITY
         </button>
 
-        <h6 className="description">AVAILABLE RESIDENCES</h6>
+        <h6 className="description-menu">AVAILABLE RESIDENCES</h6>
       </a>
 
       <a href="/residence">
-        <button className="button-80" id="menu-opt">
+        <button className="button-80" id="list-menu">
           METICULOUSLY DESIGNED
         </button>
-        <h6 className="description">THE RESIDENCES</h6>
+        <h6 className="description-menu">THE RESIDENCES</h6>
       </a>
 
       <a href="/amenities">
-        <button className="button-80" id="menu-opt">
+        <button className="button-80" id="list-menu">
           A LIFESTYLE CONCIEVED...
         </button>
 
-        {/* <h1 className="menu-opt">A LIFESTYLE CONCEIVED ...</h1> */}
-        <h6 className="description">AMENITIES</h6>
+        {/* <h1 className="list-menu">A LIFESTYLE CONCEIVED ...</h1> */}
+        <h6 className="description-menu">AMENITIES</h6>
       </a>
       <a href="/neighborhood">
-        <button className="button-80" id="menu-opt">
+        <button className="button-80" id="list-menu">
           AN EXCLUSIVE ADDRESS
         </button>
 
-        {/* <h1 className="menu-opt">AN EXCLUSIVE ADDRESS</h1> */}
-        <h6 className="description">THE NEIGHBORHOOD</h6>
+        {/* <h1 className="list-menu">AN EXCLUSIVE ADDRESS</h1> */}
+        <h6 className="description-menu">THE NEIGHBORHOOD</h6>
       </a>
       <a href="/map">
-        <button className="button-80" id="menu-opt">
+        <button className="button-80" id="list-menu">
           LOCATION
         </button>
-        <h6 className="description"> THE MAP</h6>
+        <h6 className="description-menu"> THE MAP</h6>
       </a>
       <div className="bottom-menu">
         <a href="/contact">

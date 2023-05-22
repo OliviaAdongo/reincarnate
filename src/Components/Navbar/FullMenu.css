@@ -18,7 +18,18 @@
   left: 0px;
   background-color: rgba(0,0,0,0.25);
 }
-
+#list-menu{
+  color: white;
+  margin-top: 35px;
+  font-size: 40px;
+}
+.description-menu{
+  text-decoration: none;
+  color: rgb(210, 202, 202);
+  margin-top: 2px;
+  font-size: 13px;
+  font-weight: bold;
+}
 /* CSS BUTTON */
 .button-80 {
   background: transparent;
@@ -91,6 +102,19 @@
 
 @media only screen and (max-width: 600px) {
   .saruni-menu {
-    height: 120vh;
+    height: 100vh;
+  }
+  .saruni-menu::before {
+    content: "";
+    position: absolute;
+    top: 80px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(0,0,0,0.25);
+  }
+  #list-menu{
+    font-size: 30px;
+    margin-top: 25px;
   }
 }
