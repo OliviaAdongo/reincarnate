@@ -31,7 +31,7 @@ function App() {
         <Route path="menu" element={<FullMenu />} />
         <Route path="availability" element={<Availability />} />
         <Route path="contact" element={<Contact />} />
-        <Route path="about" element={<About/>} />
+        <Route path="about" element={<About />} />
         <Route path="map" element={<NeighborMap />} />
         {/* RESIDENCES */}
         <Route path="residence" element={<Residence />} />

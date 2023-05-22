@@ -94,7 +94,7 @@
   justify-content: space-evenly;
 }
 
-.contact-opt{
+#contact-opt{
   color: white;
   font-size: 20px;
   text-decoration: underline solid white;

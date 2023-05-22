@@ -10,7 +10,7 @@ function About() {
             <div className="ablogo">
               <img
                 src="http://testdeploy.thesaruni.com/SaruniLogo.png"
-                className="spec"
+                 className="spec"
                 alt="logo"
               />
             </div>

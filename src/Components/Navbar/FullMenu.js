@@ -40,13 +40,20 @@ function FullMenu() {
         <h6 className="description-menu"> THE MAP</h6>
       </a>
       <div className="bottom-menu">
-        <a href="/contact">
-          <h6 className="contact-opt">CONTACT</h6>
-        </a>
-        <a href="/about">
-          <h6 className="contact-opt">ABOUT US </h6>
-        </a>
-      </div>
+      <a href="/contact">
+        <button className="button-80" id="contact-opt">
+        CONTACT
+        </button>
+        
+      </a>
+      <a href="/about">
+        <button className="button-80" id="contact-opt">
+       ABOUT
+        </button>
+        
+      </a>
+        
+      </div> 
     </div>
   );
 }
