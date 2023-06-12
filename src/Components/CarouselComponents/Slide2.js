@@ -9,7 +9,7 @@ function Slide2() {
           <img
             src="https://thesaruni.com/images/SaruniLogo.png"
             alt="Logo"
-            className="logo"
+            className="logo" 
           />
         </div>
         <div className="item">
