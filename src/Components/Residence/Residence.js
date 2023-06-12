@@ -23,12 +23,13 @@ function Residence() {
             METICULOUSLY <br />
             DESIGNED
           </h1>
-          <p className="paragraph-summary one">
+          <p className="paragraph-summary ">
             With uninterrupted views from each apartments, 'The Saruni' at
             Riverside Drive, is a modern interpretation of contemporary luxury
             specifically designed to enhance your living experience.
           </p> 
         </div>
+        
       </div>
       <div className="flexbox-item-2">
         <img
