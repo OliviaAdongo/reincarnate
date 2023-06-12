@@ -5,21 +5,17 @@ import "./NeighMap.css";
 function NeighborMap() {
   return (
     <div className="parent-div">
-      <div className="map-section">
       <div className="upsect">
-      
+    
+
+        <img
+          src="https://testdeploy.thesaruni.com/map.jpg"
+          alt="residence"
+          className="map"
+          loading="lazy"
+        />
       </div>
-      
-      <img
-            src="https://testdeploy.thesaruni.com/map.jpg"
-            alt="residence"
-            className="map"
-            loading="lazy"
-          /> 
-      </div>
-      
     </div>
-     
   );
 }
 

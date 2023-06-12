@@ -2,13 +2,17 @@ import "./FullMenu.css";
 
 function FullMenu() {
   return (
-    <div className="saruni-menu">
+    <>
+    <div className="upsect">
+
+    </div>
+      <div className="saruni-menu">
       <div>
-        <img
+        <img 
           src="http://testdeploy.thesaruni.com/SaruniLogo.png"
           id="saruni-home-logo-word"
         />
-        <p className="logo-heading">THE SARUNI</p>
+        
       </div>
 
       <a href="/availability">
@@ -61,6 +65,8 @@ function FullMenu() {
         </a>
       </div>
     </div>
+    
+    </>
   );
 }
 
