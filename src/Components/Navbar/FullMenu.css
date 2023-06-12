@@ -9,7 +9,7 @@
   box-sizing: border-box;
 } */
 .saruni-menu{
-  background-color: black;
+  background-color: rgb(13, 12, 12);
   height: 100%;
   width: 100%;
   text-align: center;
@@ -27,7 +27,7 @@
 #list-menu{
   color: var( --gold-color);
   margin-top: 35px;
-  font-size: 40px;
+  font-size: 50px;
 }
 .description-menu{
   text-decoration: none;
