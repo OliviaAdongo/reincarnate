@@ -1,14 +1,4 @@
-/* .saruni-menu {
-  background-image: url(/src/Components/CarouselComponents/image/saruni-home-logo.png);
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  text-align: center;
-  height: 100vh;
-  width: 100%;
-  box-sizing: border-box;
-} */
-.saruni-menu{
+.saruni-menu {
   background-color: rgb(13, 12, 12);
   height: 100%;
   width: 100%;
@@ -24,18 +14,21 @@
   left: 0px;
   /* background-color: rgba(0,0,0,0.25); */
 }
-#list-menu{
-  color: var( --gold-color);
+#list-menu {
+  color: var(--gold-color);
   margin-top: 35px;
   font-size: 50px;
+  letter-spacing: 0.3rem;
+
 }
-.description-menu{
+.description-menu {
   text-decoration: none;
-  color: white
-  ;
+  color: var(--gold-color);
   margin-top: 2px;
   font-size: 13px;
   font-weight: bold;
+  letter-spacing: 0.1rem;
+
 }
 /* CSS BUTTON */
 .button-80 {
@@ -99,12 +92,16 @@
   display: flex;
   text-align: center;
   justify-content: space-evenly;
+ 
+
 }
 
-#contact-opt{
+#contact-opt {
   color: var(--gold-color);
   font-size: 20px;
   text-decoration: underline solid var(--gold-color);
+  letter-spacing: 0.2rem;
+
 }
 
 @media only screen and (max-width: 600px) {
@@ -118,10 +115,24 @@
     right: 0px;
     bottom: 0px;
     left: 0px;
-    background-color: rgba(0,0,0,0.25);
+    background-color: rgba(0, 0, 0, 0.25);
   }
-  #list-menu{
+  #list-menu {
     font-size: 30px;
     margin-top: 25px;
   }
+}
+
+.logo-heading{
+  color: var(--home-text-color);
+  font-family: var(--paragone-font);
+  font-size: 19px;
+  padding: 29px 0px 1px 5px;
+  color: var(--gold-color);
+  font-weight: bold;
+  letter-spacing: 0.3rem;
+  line-height: 48px;
+  white-space: nowrap;
+  text-decoration: underline solid var(--gold-color);
+
 }

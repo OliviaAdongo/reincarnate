@@ -1,5 +1,4 @@
 import "./FullMenu.css";
-import homelogo from "../CarouselComponents/image/saruni-home-logo.png";
 
 function FullMenu() {
   return (
@@ -9,7 +8,7 @@ function FullMenu() {
           src="http://testdeploy.thesaruni.com/SaruniLogo.png"
           id="saruni-home-logo-word"
         />
-        <p className="home-heading">THE SARUNI</p>
+        <p className="logo-heading">THE SARUNI</p>
       </div>
 
       <a href="/availability">
