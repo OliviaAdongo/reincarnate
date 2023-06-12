@@ -6,12 +6,11 @@
   background-attachment: fixed;
   height: 100vh;
 }
-.logo{
-  height: 210px;
-  width: 210px;
-  margin-top: -30px ;
+.logo {
+  height: 160px;
+  width: 160px;
+  margin: 0 auto;
   position: relative;
-  margin-left: 69px;
 }
 #saruni-logo-section {
   height: 150px;
