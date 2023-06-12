@@ -106,7 +106,7 @@
 
 @media only screen and (max-width: 600px) {
   .saruni-menu {
-    height: 100vh;
+    height: 100%;
   }
   .saruni-menu::before {
     content: "";
@@ -118,14 +118,14 @@
     background-color: rgba(0, 0, 0, 0.25);
   }
   #list-menu {
-    font-size: 30px;
+    font-size: 24px;
     margin-top: 25px;
   }
 }
 
 .logo-heading{
   color: var(--home-text-color);
-  font-family: var(--paragone-font);
+  /* font-family: var(--paragone-font); */
   font-size: 19px;
   padding: 29px 0px 1px 5px;
   color: var(--gold-color);
