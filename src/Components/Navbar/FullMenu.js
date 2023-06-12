@@ -1,7 +1,17 @@
 import "./FullMenu.css";
+import homelogo from "../CarouselComponents/image/saruni-home-logo.png";
+
 function FullMenu() {
   return (
     <div className="saruni-menu">
+      <div>
+        <img
+          src="http://testdeploy.thesaruni.com/SaruniLogo.png"
+          id="saruni-home-logo-word"
+        />
+        <p className="home-heading">THE SARUNI</p>
+      </div>
+
       <a href="/availability">
         <button className="button-80" id="list-menu">
           AVAILABILITY
@@ -40,20 +50,17 @@ function FullMenu() {
         <h6 className="description-menu"> THE MAP</h6>
       </a>
       <div className="bottom-menu">
-      <a href="/contact">
-        <button className="button-80" id="contact-opt">
-        CONTACT
-        </button>
-        
-      </a>
-      <a href="/about">
-        <button className="button-80" id="contact-opt">
-       ABOUT
-        </button>
-        
-      </a>
-        
-      </div> 
+        <a href="/contact">
+          <button className="button-80" id="contact-opt">
+            CONTACT
+          </button>
+        </a>
+        <a href="/about">
+          <button className="button-80" id="contact-opt">
+            ABOUT
+          </button>
+        </a>
+      </div>
     </div>
   );
 }

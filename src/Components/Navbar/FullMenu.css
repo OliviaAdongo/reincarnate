@@ -1,5 +1,4 @@
-.saruni-menu {
-  /* background-image: url("http://testdeploy.thesaruni.com/courtyardsmall.jpg"); */
+/* .saruni-menu {
   background-image: url(/src/Components/CarouselComponents/image/saruni-home-logo.png);
   background-position: center center;
   background-repeat: no-repeat;
@@ -8,8 +7,14 @@
   height: 100vh;
   width: 100%;
   box-sizing: border-box;
+} */
+.saruni-menu{
+  background-color: black;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  box-sizing: border-box;
 }
-
 .saruni-menu::before {
   content: "";
   position: absolute;
@@ -17,16 +22,17 @@
   right: 0px;
   bottom: 0px;
   left: 0px;
-  background-color: rgba(0,0,0,0.25);
+  /* background-color: rgba(0,0,0,0.25); */
 }
 #list-menu{
-  color: white;
+  color: var( --gold-color);
   margin-top: 35px;
   font-size: 40px;
 }
 .description-menu{
   text-decoration: none;
-  color: rgb(210, 202, 202);
+  color: white
+  ;
   margin-top: 2px;
   font-size: 13px;
   font-weight: bold;
@@ -37,7 +43,7 @@
   backface-visibility: hidden;
   border: none;
   box-sizing: border-box;
-  color: white;
+  color: var(--gold-color);
   cursor: pointer;
   display: inline-block;
   font-size: 35px;
@@ -96,9 +102,9 @@
 }
 
 #contact-opt{
-  color: white;
+  color: var(--gold-color);
   font-size: 20px;
-  text-decoration: underline solid white;
+  text-decoration: underline solid var(--gold-color);
 }
 
 @media only screen and (max-width: 600px) {
