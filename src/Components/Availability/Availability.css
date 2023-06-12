@@ -1,156 +1,81 @@
-.lux-heading {
-  padding: 10px;
-  text-align: center;
-  height: auto;
-  background-color: goldenrod;
-  box-sizing: content-box;
-}
-.topic-lux {
-  margin-top: 15px;
-  font-weight: normal;
-  color: #7b7471;
-  padding-top: 13px;
-  font-size: 38px;
-}
-.reserve {
-  margin-top: 5px;
-  font-weight: bold;
-  color: #7b7471;
-  font-size: 13px;
-}
-
-/* BODY STYLING */
-.sect-body {
-  margin-top: 27px;
-  height: 100%;
-}
-.body-one {
-  display: flex;
-  height: 100%;
-  /* background-color: pink; */
-  justify-content: space-evenly;
-  overflow: hidden;
-}
-.body-two {
-  display: flex;
-  height: 100%;
-  justify-content: space-evenly;
-}
-.lux-body-upjuu {
-  width: 620px;
-  border-right: 1px solid #7b7471;
-  border-bottom: 1px solid #7b7471;
-  padding-right: 10px;
-  padding-top: 10px;
-  padding-bottom: 25px;
-  box-sizing: border-box;
-
-}
-.lux-body-upple {
-  padding-right: 10px;
-  border-bottom: 1px solid #7b7471;
-  padding-bottom: 25px;
-  padding-top: 10px;
-  box-sizing: border-box;
-}
-
-.lux-body-updown {
-  /* background-color: pink; */
-  width: 569px;
-  border-right: 1px solid #7b7471;
-  padding-right: 10px;
-  height: 370px auto;
-  padding-bottom: 25px;
-}
-
-.body-lux {
-  color: #7b7471;
-  margin-left: 30px;
-}
-.body-lux.tittle {
-  margin-top: 20px;
-  padding: 5px;
-  font-size: 30px;
-}
-.body-lux.one {
-  margin-top: 7px;
-  font-size: 15px;
-}
-.headingsss {
-  display: flex;
-}
-
-.topic-luxx {
-  margin-top: 15px;
-  /* margin-left: 20px; */
-  color: #7b7471;
-  font-weight: normal;
-  padding-left: 10px;
-}
-.explore-avia {
-  font-weight: bold;
-  color: #7c7471;
-
-  font-weight: bold;
-  text-align: center;
-  cursor: pointer;
-  margin-top: 0px;
-}
-.number {
-  color: goldenrod;
-  font-weight: bold;
-  font-size: 290%;
-}
-.flexbox-container-availability {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  align-items: stretch;
-}
 .flexbox-item-availability1 {
+  box-sizing: border-box;
   flex-grow: 1;
-  width: 400px;
-  height: 100%;
-  overflow: scroll;
+  width: 390px;
 }
 .flexbox-item-availability2 {
+  box-sizing: border-box;
   flex-grow: 1;
-  width: 400px;
+  width: 390px;
 }
-.flexbox-child-item {
-  display: flex;
-  justify-content: space-evenly;
-  background-color: goldenrod;
-  text-align: left;
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: var( --mt-2);
 }
-.apartment-view {
-  object-fit: contain;
+.one {
+  height: 300px;
+  padding: 22px 10px 2px  22px;
+  box-sizing: border-box;
+  border-right: 1px solid var(--textColor2);
+  border-bottom: 1px solid var(--textColor2);
+}
+.two {
+  box-sizing: border-box;
+  height: 300px;
+  padding: 22px 10px 2px  22px;
+  border-bottom: 1px solid var(--textColor2);
+}
+.three {
+  box-sizing: border-box;
+  height: 300px;
+  padding: 22px 10px 2px  22px;
+  border-right: 1px solid var(--textColor2);
+}
+.four {
+  height: 300px;
+  padding: 22px 10px 2px  22px;
+  box-sizing: border-box;
+}
+.side-image {
   height: 100%;
   width: 100%;
+  object-fit: cover;
 }
-
-@media only screen and (max-width: 600px) {
-  .body-one {
-    flex-wrap: wrap;
-  }
-  .body-two {
-    flex-wrap: wrap;
-  }
-  .lux-body {
-    border-top: 1px solid #7b7471;
-    padding-right: 10px;
-    height: 370px auto;
-    padding-bottom: 25px;
-  }
-  .lux-heading {
-    height: 100%;
-  }
-  .topic-lux {
-    font-size: 30px;
-  }
-  .reserve {
-  
-    font-size: 10px;
-  }
+.number{
+  display: inline;
+  color: var(--gold-color);
+  font-size: var(--number-font);
 }
+.apartment{
+  color: var(--textColor2);
+}
+.room-description{
+  color: var(--textColor2);
 
+}
+@media only screen and (max-width: 600px){
+  .container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: stretch;
+
+  }
+  .four{
+    border-top: 1px solid var(--textColor2);
+  }
+ 
+}
+.map{
+  width: 100%;
+  height: 100%;
+  border-top: 3px solid var(--gold-color);
+}
+.map-section{
+  padding: 0 10px 10px 10px;
+}
+#head{
+  padding: 20px 10px 10px 10px;
+
+}
