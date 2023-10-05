@@ -1,5 +1,7 @@
 import { useNavigate } from "react-router-dom";
 import { FaAngleRight } from "react-icons/fa";
+// import residencehome from "../../image/aboutdome.jpg";
+
 
 function Residence() {
   let navigate = useNavigate();
@@ -33,6 +35,7 @@ function Residence() {
       </div>
       <div className="flexbox-item-2">
         <img
+
           src="http://testdeploy.thesaruni.com/residenceluxury.jpg"
           alt="residence"
           className="building-profile"

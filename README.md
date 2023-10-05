@@ -1,3 +1,5 @@
+## This is the latest Saruni project where the slides have buttons
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
